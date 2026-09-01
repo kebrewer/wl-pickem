@@ -81,18 +81,17 @@ const schema = a.schema({
   // One ballot per voter per category
   .identifier(['voterId', 'categoryId']),
 
-});
+})
+
+// All voting data requires a voter authenticated through Cognito.
+.authorization((allow) => [allow.authenticated()]);
 
 export type Schema = ClientSchema<typeof schema>;
 
 export const data = defineData({
   schema,
   authorizationModes: {
-    defaultAuthorizationMode: 'apiKey',
-
-    apiKeyAuthorizationMode: {
-      expiresInDays: 30,
-    },
+    defaultAuthorizationMode: 'userPool',
   },
 });
 
