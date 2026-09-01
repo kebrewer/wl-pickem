@@ -1,6 +1,5 @@
 [
   {
-    "id": "beginner-couple-1",
     "coupleNumber": 1,
     "name": "Montreal Cain & Breona Johnson Allen",
     "categoryId": "BEGINNERS",
@@ -14,7 +13,6 @@
     }
   },
   {
-    "id": "beginner-couple-2",
     "coupleNumber": 2,
     "name": "Kevun Irvins & Myracle Rubio",
     "categoryId": "BEGINNERS",
@@ -28,7 +26,6 @@
     }
   },
   {
-    "id": "beginner-couple-3",
     "coupleNumber": 3,
     "name": "Ryan Robinson & Krystal Holmes",
     "categoryId": "BEGINNERS",
@@ -42,7 +39,6 @@
     }
   },
   {
-    "id": "beginner-couple-4",
     "coupleNumber": 4,
     "name": "Tre (Treezy) Thomas & Kewn (K.J.) Jones",
     "categoryId": "BEGINNERS",
@@ -56,7 +52,6 @@
     }
   },
   {
-    "id": "new-school-couple-1",
     "coupleNumber": 1,
     "name": "Mark Alexander & Oni Faulkner",
     "categoryId": "NEW_SCHOOL",
@@ -70,7 +65,6 @@
     }
   },
   {
-    "id": "new-school-couple-2",
     "coupleNumber": 2,
     "name": "Dre Bell & Jamie Anderson",
     "categoryId": "NEW_SCHOOL",
@@ -84,7 +78,6 @@
     }
   },
   {
-    "id": "new-school-couple-3",
     "coupleNumber": 3,
     "name": "Arnel (Tech) Cross & Amanda Anderson",
     "categoryId": "NEW_SCHOOL",
@@ -98,7 +91,6 @@
     }
   },
   {
-    "id": "new-school-couple-4",
     "coupleNumber": 4,
     "name": "Frederic (Freeze) Dowd & Slyvella Davis",
     "categoryId": "NEW_SCHOOL",
@@ -112,7 +104,6 @@
     }
   },
   {
-    "id": "new-school-couple-5",
     "coupleNumber": 5,
     "name": "Allen Downer & Genevieve Barber",
     "categoryId": "NEW_SCHOOL",
@@ -126,7 +117,6 @@
     }
   },
   {
-    "id": "new-school-couple-6",
     "coupleNumber": 6,
     "name": "Feo Duncan & Brandie Wright",
     "categoryId": "NEW_SCHOOL",
@@ -140,7 +130,6 @@
     }
   },
   {
-    "id": "new-school-couple-7",
     "coupleNumber": 7,
     "name": "Malik Evans & Elissa Hall",
     "categoryId": "NEW_SCHOOL",
@@ -154,7 +143,6 @@
     }
   },
   {
-    "id": "new-school-couple-8",
     "coupleNumber": 8,
     "name": "Armando (Doe) Gamble & Theresa Gee",
     "categoryId": "NEW_SCHOOL",
@@ -168,7 +156,6 @@
     }
   },
   {
-    "id": "new-school-couple-9",
     "coupleNumber": 9,
     "name": "Tori Jones & Elena Elmore",
     "categoryId": "NEW_SCHOOL",
@@ -182,7 +169,6 @@
     }
   },
   {
-    "id": "new-school-couple-10",
     "coupleNumber": 10,
     "name": "Le Lias & Darling Bains",
     "categoryId": "NEW_SCHOOL",
@@ -196,7 +182,6 @@
     }
   },
   {
-    "id": "new-school-couple-11",
     "coupleNumber": 11,
     "name": "JR Riddle & Jennie Maddox",
     "categoryId": "NEW_SCHOOL",
@@ -210,7 +195,6 @@
     }
   },
   {
-    "id": "new-school-couple-12",
     "coupleNumber": 12,
     "name": "Dawud Shareef & Jordan Muhammed",
     "categoryId": "NEW_SCHOOL",
@@ -224,7 +208,6 @@
     }
   },
   {
-    "id": "new-school-couple-13",
     "coupleNumber": 13,
     "name": "Barack Swanigan & Toni Smiley (TBD)",
     "categoryId": "NEW_SCHOOL",
@@ -238,7 +221,6 @@
     }
   },
   {
-    "id": "new-school-couple-14",
     "coupleNumber": 14,
     "name": "Trey (Nikee) Young & Sandi Abril",
     "categoryId": "NEW_SCHOOL",
@@ -252,7 +234,6 @@
     }
   },
   {
-    "id": "old-school-couple-1",
     "coupleNumber": 1,
     "name": "Royce D. Banks & Alissha Hopes",
     "categoryId": "OLD_SCHOOL",
@@ -266,7 +247,6 @@
     }
   },
   {
-    "id": "old-school-couple-2",
     "coupleNumber": 2,
     "name": "Michael Bennett (Mike B) & Shelly Holder",
     "categoryId": "OLD_SCHOOL",
@@ -280,7 +260,6 @@
     }
   },
   {
-    "id": "old-school-couple-3",
     "coupleNumber": 3,
     "name": "Jamil Bey & Lannette (Lucki) Banks",
     "categoryId": "OLD_SCHOOL",
@@ -294,7 +273,6 @@
     }
   },
   {
-    "id": "old-school-couple-4",
     "coupleNumber": 4,
     "name": "Ron Brown & Keynnia Day",
     "categoryId": "OLD_SCHOOL",
@@ -308,7 +286,6 @@
     }
   },
   {
-    "id": "old-school-couple-5",
     "coupleNumber": 5,
     "name": "Reggie Clayton & Sherrie Martin",
     "categoryId": "OLD_SCHOOL",
@@ -322,7 +299,6 @@
     }
   },
   {
-    "id": "old-school-couple-6",
     "coupleNumber": 6,
     "name": "Richard Cochran & Michelle Bradley",
     "categoryId": "OLD_SCHOOL",
@@ -336,7 +312,6 @@
     }
   },
   {
-    "id": "old-school-couple-7",
     "coupleNumber": 7,
     "name": "Walt Fayne & Henrietta Winfield",
     "categoryId": "OLD_SCHOOL",
@@ -350,7 +325,6 @@
     }
   },
   {
-    "id": "old-school-couple-8",
     "coupleNumber": 8,
     "name": "Dorrell (Coach Ras) Howard & Spiritual Howard",
     "categoryId": "OLD_SCHOOL",
@@ -364,7 +338,6 @@
     }
   },
   {
-    "id": "old-school-couple-9",
     "coupleNumber": 9,
     "name": "Herb Ihenacho & Tonya London",
     "categoryId": "OLD_SCHOOL",
@@ -378,7 +351,6 @@
     }
   },
   {
-    "id": "old-school-couple-10",
     "coupleNumber": 10,
     "name": "Jesse McDaniels & Christine Chavez",
     "categoryId": "OLD_SCHOOL",
@@ -392,7 +364,6 @@
     }
   },
   {
-    "id": "old-school-couple-11",
     "coupleNumber": 11,
     "name": "Jonathan McDougald & Shani Johnson",
     "categoryId": "OLD_SCHOOL",
@@ -406,7 +377,6 @@
     }
   },
   {
-    "id": "old-school-couple-12",
     "coupleNumber": 12,
     "name": "Scorpio & Coco Ramsey",
     "categoryId": "OLD_SCHOOL",
@@ -420,7 +390,6 @@
     }
   },
   {
-    "id": "old-school-couple-13",
     "coupleNumber": 13,
     "name": "Barack Swanigan & Shonette (Butterfly) Holland (TBD)",
     "categoryId": "OLD_SCHOOL",
@@ -434,7 +403,6 @@
     }
   },
   {
-    "id": "old-school-couple-14",
     "coupleNumber": 14,
     "name": "Jared Taylor & Tianna Ross Damon",
     "categoryId": "OLD_SCHOOL",
@@ -448,7 +416,6 @@
     }
   },
   {
-    "id": "old-school-couple-15",
     "coupleNumber": 15,
     "name": "Auntrell (Steppin Trell) White & Ericka Jones",
     "categoryId": "OLD_SCHOOL",
@@ -462,7 +429,6 @@
     }
   },
   {
-    "id": "old-school-couple-16",
     "coupleNumber": 16,
     "name": "Kirk White & Bridgett White",
     "categoryId": "OLD_SCHOOL",
@@ -476,7 +442,6 @@
     }
   },
   {
-    "id": "over-60-couple-1",
     "coupleNumber": 1,
     "name": "DA Peaches Anderson & Cheri Lilly-Daniel",
     "categoryId": "OVER_60",
@@ -490,7 +455,6 @@
     }
   },
   {
-    "id": "over-60-couple-2",
     "coupleNumber": 2,
     "name": "Rodney Clark & Tracey Collins",
     "categoryId": "OVER_60",
@@ -504,7 +468,6 @@
     }
   },
   {
-    "id": "over-60-couple-3",
     "coupleNumber": 3,
     "name": "Tim McGary & Toni Cleaves",
     "categoryId": "OVER_60",
@@ -518,7 +481,6 @@
     }
   },
   {
-    "id": "over-60-couple-4",
     "coupleNumber": 4,
     "name": "Jerry McNair & Chessie Smith",
     "categoryId": "OVER_60",
@@ -532,7 +494,6 @@
     }
   },
   {
-    "id": "over-60-couple-5",
     "coupleNumber": 5,
     "name": "Muhammed & Cheryl Jackson",
     "categoryId": "OVER_60",
@@ -546,7 +507,6 @@
     }
   },
   {
-    "id": "walkers-couple-1",
     "coupleNumber": 1,
     "name": "Michael (Mike B) Bennett & Bridget Piggüe",
     "categoryId": "WALKERS",
@@ -560,7 +520,6 @@
     }
   },
   {
-    "id": "walkers-couple-2",
     "coupleNumber": 2,
     "name": "Ron Brown & Key Day",
     "categoryId": "WALKERS",
@@ -574,7 +533,6 @@
     }
   },
   {
-    "id": "walkers-couple-3",
     "coupleNumber": 3,
     "name": "Rodney Clark & Tracey Collins",
     "categoryId": "WALKERS",
@@ -588,7 +546,6 @@
     }
   },
   {
-    "id": "walkers-couple-4",
     "coupleNumber": 4,
     "name": "Reggie Clayton & Dori (GG) Lee",
     "categoryId": "WALKERS",
@@ -602,7 +559,6 @@
     }
   },
   {
-    "id": "walkers-couple-5",
     "coupleNumber": 5,
     "name": "Frederic (Freeze) Dowd & Slyvella Davis",
     "categoryId": "WALKERS",
@@ -616,7 +572,6 @@
     }
   },
   {
-    "id": "walkers-couple-6",
     "coupleNumber": 6,
     "name": "Allen Downer & Genevieve Barber",
     "categoryId": "WALKERS",
@@ -630,7 +585,6 @@
     }
   },
   {
-    "id": "walkers-couple-7",
     "coupleNumber": 7,
     "name": "Feo Duncan & Brandie Wright",
     "categoryId": "WALKERS",
@@ -644,7 +598,6 @@
     }
   },
   {
-    "id": "walkers-couple-8",
     "coupleNumber": 8,
     "name": "Armando Gamble & Oni Faulkner",
     "categoryId": "WALKERS",
@@ -658,7 +611,6 @@
     }
   },
   {
-    "id": "walkers-couple-9",
     "coupleNumber": 9,
     "name": "Bobby Green & Wanda Scales",
     "categoryId": "WALKERS",
@@ -672,7 +624,6 @@
     }
   },
   {
-    "id": "walkers-couple-10",
     "coupleNumber": 10,
     "name": "Dorrell (Coach Ras) Howard & Spiritual Howard",
     "categoryId": "WALKERS",
@@ -686,7 +637,6 @@
     }
   },
   {
-    "id": "walkers-couple-11",
     "coupleNumber": 11,
     "name": "Josh McCloudy & Shelly Holder",
     "categoryId": "WALKERS",
@@ -700,7 +650,6 @@
     }
   },
   {
-    "id": "walkers-couple-12",
     "coupleNumber": 12,
     "name": "Jesse McDaniels & Christine Chavez",
     "categoryId": "WALKERS",
@@ -714,7 +663,6 @@
     }
   },
   {
-    "id": "walkers-couple-13",
     "coupleNumber": 13,
     "name": "Jonathan McDougald & Shani Johnson",
     "categoryId": "WALKERS",
@@ -728,7 +676,6 @@
     }
   },
   {
-    "id": "walkers-couple-14",
     "coupleNumber": 14,
     "name": "Muhammad & Debra Goode",
     "categoryId": "WALKERS",
@@ -742,7 +689,6 @@
     }
   },
   {
-    "id": "walkers-couple-15",
     "coupleNumber": 15,
     "name": "Danny Stone & Tasha Holmes",
     "categoryId": "WALKERS",
@@ -756,7 +702,6 @@
     }
   },
   {
-    "id": "walkers-couple-16",
     "coupleNumber": 16,
     "name": "Barack Swanigan & Brittnea Miller",
     "categoryId": "WALKERS",
@@ -770,7 +715,6 @@
     }
   },
   {
-    "id": "walkers-couple-17",
     "coupleNumber": 17,
     "name": "Trey (Nikee) Young & Sandi Abril",
     "categoryId": "WALKERS",
