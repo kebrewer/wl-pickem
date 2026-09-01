@@ -17,4 +17,3 @@ frontend:
   cache:
     paths:
       - .npm/**/*
-*** End Patch
