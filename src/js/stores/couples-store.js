@@ -27,7 +27,7 @@ export async function getCouplesData() {
   }
 
   // 4️⃣ Fetch from API and store result
-  inFlightPromise = fetch("/src/json/2026_all_couples_master.json")
+  inFlightPromise = fetch("/src/json/couples.json")
     .then(res => {
       if (!res.ok) {
         throw new Error("API fetch failed");

@@ -1,392 +1,786 @@
-{
-    "beginners": [
-
-      {
-        "coupleId": "B06",
-        "female": { "firstName": "Charlsie", "lastName": "Hylicks" },
-        "male": { "firstName": "Tori", "lastName": "Robinson" }
-      },
-      {
-        "coupleId": "B07",
-        "female": { "firstName": "Taylar", "lastName": "Raymond" },
-        "male": { "firstName": "Kevin", "lastName": "Dockery" }
-      },
-      {
-        "coupleId": "B08",
-        "female": { "firstName": "Sharon", "lastName": "Bolden" },
-        "male": { "firstName": "Bobby", "lastName": "Taylor" }
-      },
-      {
-        "coupleId": "B09",
-        "female": { "firstName": "Tabitha", "lastName": "Hicks" },
-        "male": { "firstName": "Jamie", "lastName": "Graham" }
-      },
-      {
-        "coupleId": "B10",
-        "female": { "firstName": "Juanita", "lastName": "Ceaser" },
-        "male": { "firstName": "James", "lastName": "Birganns" }
-      },
-      {
-        "coupleId": "B11",
-        "female": { "firstName": "Margrette", "lastName": "Fisher" },
-        "male": { "firstName": "Andre", "lastName": "Blackwell" }
-      },
-      {
-        "coupleId": "B12",
-        "female": { "firstName": "Danielle", "lastName": "Woodard" },
-        "male": { "firstName": "Ed", "lastName": "Donaldsonn" }
-      },
-      {
-        "coupleId": "B13",
-        "female": { "firstName": "Ann", "lastName": "Hunter" },
-        "male": { "firstName": "Drew", "lastName": "Alexander" }
-      },
-      {
-        "coupleId": "B14",
-        "female": { "firstName": "Sherry", "lastName": "Gorder" },
-        "male": { "firstName": "Mike", "lastName": "Bush" }
-      },
-      {
-        "coupleId": "B15",
-        "female": { "firstName": "Chemesha", "lastName": "Grant" },
-        "male": { "firstName": "Mark", "lastName": "Alexander" }
-      },
-      {
-        "coupleId": "B16",
-        "female": { "firstName": "Candace", "lastName": "Haydenn" },
-        "male": { "firstName": "Stuart", "lastName": "Clark" }
-      },
-      {
-        "coupleId": "B17",
-        "female": { "firstName": "Danitra", "lastName": "Gardner" },
-        "male": { "firstName": "Maurice", "lastName": "Thomas" }
-      },
-      {
-        "coupleId": "B18",
-        "female": { "firstName": "Erica", "lastName": "Little" },
-        "male": { "firstName": "Darnell", "lastName": "Smith" }
-      },
-      {
-        "coupleId": "B19",
-        "female": { "firstName": "Nicole", "lastName": "Wilburn" },
-        "male": { "firstName": "Selwyne", "lastName": "Hodges" }
-      },
-      {
-        "coupleId": "B20",
-        "female": { "firstName": "Audrey", "lastName": "Freeman" },
-        "male": { "firstName": "Reice", "lastName": "Turner" }
-      },
-      {
-        "coupleId": "B21",
-        "female": { "firstName": "Mariska", "lastName": "Lee" },
-        "male": { "firstName": "Quies", "lastName": "Martin" }
-      }
-    ],
-  
-    "new_school": [
-      {
-        "coupleId": "A01",
-        "female": { "firstName": "Sophia", "lastName": "Martinez" },
-        "male": { "firstName": "James", "lastName": "Chen" }
-      },
-      {
-        "coupleId": "A02",
-        "female": { "firstName": "Emma", "lastName": "Rodriguez" },
-        "male": { "firstName": "Michael", "lastName": "Thompson" }
-      },
-      {
-        "coupleId": "A03",
-        "female": { "firstName": "Olivia", "lastName": "Johnson" },
-        "male": { "firstName": "David", "lastName": "Williams" }
-      },
-      {
-        "coupleId": "A04",
-        "female": { "firstName": "Ava", "lastName": "Brown" },
-        "male": { "firstName": "Daniel", "lastName": "Garcia" }
-      },
-      {
-        "coupleId": "A05",
-        "female": { "firstName": "Isabella", "lastName": "Davis" },
-        "male": { "firstName": "Matthew", "lastName": "Miller" }
-      },
-      {
-        "coupleId": "B01",
-        "female": { "firstName": "Mia", "lastName": "Wilson" },
-        "male": { "firstName": "Christopher", "lastName": "Moore" }
-      },
-      {
-        "coupleId": "B02",
-        "female": { "firstName": "Charlotte", "lastName": "Taylor" },
-        "male": { "firstName": "Anthony", "lastName": "Anderson" }
-      },
-      {
-        "coupleId": "B03",
-        "female": { "firstName": "Amelia", "lastName": "Thomas" },
-        "male": { "firstName": "Joshua", "lastName": "Jackson" }
-      },
-      {
-        "coupleId": "B04",
-        "female": { "firstName": "Harper", "lastName": "White" },
-        "male": { "firstName": "Andrew", "lastName": "Harris" }
-      },
-      {
-        "coupleId": "B05",
-        "female": { "firstName": "Evelyn", "lastName": "Martin" },
-        "male": { "firstName": "Ryan", "lastName": "Lee" }
-      },
-      {
-        "coupleId": "C01",
-        "female": { "firstName": "Abigail", "lastName": "Lewis" },
-        "male": { "firstName": "Brandon", "lastName": "Walker" }
-      },
-      {
-        "coupleId": "C02",
-        "female": { "firstName": "Emily", "lastName": "Hall" },
-        "male": { "firstName": "Kevin", "lastName": "Young" }
-      },
-      {
-        "coupleId": "C03",
-        "female": { "firstName": "Elizabeth", "lastName": "Allen" },
-        "male": { "firstName": "Tyler", "lastName": "King" }
-      },
-      {
-        "coupleId": "C04",
-        "female": { "firstName": "Sofia", "lastName": "Wright" },
-        "male": { "firstName": "Jason", "lastName": "Scott" }
-      },
-      {
-        "coupleId": "C05",
-        "female": { "firstName": "Avery", "lastName": "Green" },
-        "male": { "firstName": "Justin", "lastName": "Adams" }
-      },
-      {
-        "coupleId": "D01",
-        "female": { "firstName": "Ella", "lastName": "Baker" },
-        "male": { "firstName": "Nathan", "lastName": "Nelson" }
-      },
-      {
-        "coupleId": "D02",
-        "female": { "firstName": "Scarlett", "lastName": "Carter" },
-        "male": { "firstName": "Aaron", "lastName": "Hill" }
-      },
-      {
-        "coupleId": "D03",
-        "female": { "firstName": "Grace", "lastName": "Mitchell" },
-        "male": { "firstName": "Eric", "lastName": "Roberts" }
-      },
-      {
-        "coupleId": "D04",
-        "female": { "firstName": "Chloe", "lastName": "Perez" },
-        "male": { "firstName": "Samuel", "lastName": "Turner" }
-      },
-      {
-        "coupleId": "D05",
-        "female": { "firstName": "Victoria", "lastName": "Phillips" },
-        "male": { "firstName": "Benjamin", "lastName": "Campbell" }
-      },
-      {
-        "coupleId": "E01",
-        "female": { "firstName": "Madison", "lastName": "Evans" },
-        "male": { "firstName": "Jacob", "lastName": "Parker" }
-      },
-      {
-        "coupleId": "E02",
-        "female": { "firstName": "Luna", "lastName": "Edwards" },
-        "male": { "firstName": "Alexander", "lastName": "Collins" }
-      },
-      {
-        "coupleId": "E03",
-        "female": { "firstName": "Aria", "lastName": "Stewart" },
-        "male": { "firstName": "William", "lastName": "Morris" }
-      },
-      {
-        "coupleId": "E04",
-        "female": { "firstName": "Layla", "lastName": "Sanchez" },
-        "male": { "firstName": "Ethan", "lastName": "Rogers" }
-      },
-      {
-        "coupleId": "E05",
-        "female": { "firstName": "Zoe", "lastName": "Reed" },
-        "male": { "firstName": "Noah", "lastName": "Cook" }
-      }
-    ],
-  
-    "old_school": [
-      {
-        "coupleId": "F01",
-        "female": { "firstName": "Lily", "lastName": "Morgan" },
-        "male": { "firstName": "Liam", "lastName": "Bell" }
-      },
-      {
-        "coupleId": "F02",
-        "female": { "firstName": "Hannah", "lastName": "Murphy" },
-        "male": { "firstName": "Mason", "lastName": "Bailey" }
-      },
-      {
-        "coupleId": "F03",
-        "female": { "firstName": "Addison", "lastName": "Rivera" },
-        "male": { "firstName": "Logan", "lastName": "Cooper" }
-      },
-      {
-        "coupleId": "F04",
-        "female": { "firstName": "Ellie", "lastName": "Richardson" },
-        "male": { "firstName": "Lucas", "lastName": "Cox" }
-      },
-      {
-        "coupleId": "F05",
-        "female": { "firstName": "Nora", "lastName": "Howard" },
-        "male": { "firstName": "Carter", "lastName": "Ward" }
-      },
-      {
-        "coupleId": "G01",
-        "female": { "firstName": "Camila", "lastName": "Torres" },
-        "male": { "firstName": "Owen", "lastName": "Peterson" }
-      },
-      {
-        "coupleId": "G02",
-        "female": { "firstName": "Penelope", "lastName": "Gray" },
-        "male": { "firstName": "Dylan", "lastName": "Brooks" }
-      },
-      {
-        "coupleId": "G03",
-        "female": { "firstName": "Riley", "lastName": "Ramirez" },
-        "male": { "firstName": "Wyatt", "lastName": "James" }
-      },
-      {
-        "coupleId": "G04",
-        "female": { "firstName": "Zoey", "lastName": "Watson" },
-        "male": { "firstName": "Jack", "lastName": "Kelly" }
-      },
-      {
-        "coupleId": "G05",
-        "female": { "firstName": "Natalie", "lastName": "Sanders" },
-        "male": { "firstName": "Raymond", "lastName": "Price" }
-      },
-      {
-        "coupleId": "H01",
-        "female": { "firstName": "Audrey", "lastName": "Bennett" },
-        "male": { "firstName": "Sebastian", "lastName": "Wood" }
-      },
-      {
-        "coupleId": "H02",
-        "female": { "firstName": "Savannah", "lastName": "Barnes" },
-        "male": { "firstName": "Henry", "lastName": "Ross" }
-      },
-      {
-        "coupleId": "H03",
-        "female": { "firstName": "Brooklyn", "lastName": "Henderson" },
-        "male": { "firstName": "Caleb", "lastName": "Coleman" }
-      },
-      {
-        "coupleId": "H04",
-        "female": { "firstName": "Bella", "lastName": "Jenkins" },
-        "male": { "firstName": "Isaac", "lastName": "Perry" }
-      },
-      {
-        "coupleId": "H05",
-        "female": { "firstName": "Claire", "lastName": "Powell" },
-        "male": { "firstName": "Gabriel", "lastName": "Long" }
-      },
-      {
-        "coupleId": "I01",
-        "female": { "firstName": "Skylar", "lastName": "Patterson" },
-        "male": { "firstName": "Julian", "lastName": "Hughes" }
-      },
-      {
-        "coupleId": "I02",
-        "female": { "firstName": "Lucy", "lastName": "Flores" },
-        "male": { "firstName": "John", "lastName": "Washington" }
-      },
-      {
-        "coupleId": "I03",
-        "female": { "firstName": "Paisley", "lastName": "Butler" },
-        "male": { "firstName": "Luke", "lastName": "Simmons" }
-      },
-      {
-        "coupleId": "I04",
-        "female": { "firstName": "Anna", "lastName": "Foster" },
-        "male": { "firstName": "Hunter", "lastName": "Bryant" }
-      },
-      {
-        "coupleId": "I05",
-        "female": { "firstName": "Caroline", "lastName": "Griffin" },
-        "male": { "firstName": "Connor", "lastName": "Russell" }
-      }
-    ],
-  
-    "trios": [
-      {
-        "coupleId": "K05",
-        "female": { "firstName": "Leah", "lastName": "Castillo" },
-        "male": { "firstName": "Asher", "lastName": "Stone" }
-      },
-      {
-        "coupleId": "L01",
-        "female": { "firstName": "Maya", "lastName": "Pierce" },
-        "male": { "firstName": "Grayson", "lastName": "Boyd" }
-      },
-      {
-        "coupleId": "L02",
-        "female": { "firstName": "Stella", "lastName": "Freeman" },
-        "male": { "firstName": "Landon", "lastName": "Palmer" }
-      },
-      {
-        "coupleId": "L03",
-        "female": { "firstName": "Elena", "lastName": "Simpson" },
-        "male": { "firstName": "Miles", "lastName": "Hunt" }
-      },
-      {
-        "coupleId": "L04",
-        "female": { "firstName": "Hazel", "lastName": "Chapman" },
-        "male": { "firstName": "Dominic", "lastName": "Black" }
-      }
-    ],
-  
-    "walkers": [
-      {
-        "coupleId": "J01",
-        "female": { "firstName": "Violet", "lastName": "Alexander" },
-        "male": { "firstName": "Eli", "lastName": "Diaz" }
-      },
-      {
-        "coupleId": "J02",
-        "female": { "firstName": "Genesis", "lastName": "Hayes" },
-        "male": { "firstName": "Thomas", "lastName": "Myers" }
-      },
-      {
-        "coupleId": "J03",
-        "female": { "firstName": "Kennedy", "lastName": "Ford" },
-        "male": { "firstName": "Charles", "lastName": "Hamilton" }
-      },
-      {
-        "coupleId": "J04",
-        "female": { "firstName": "Sadie", "lastName": "Graham" },
-        "male": { "firstName": "Jaxon", "lastName": "Sullivan" }
-      },
-      {
-        "coupleId": "J05",
-        "female": { "firstName": "Gabriella", "lastName": "Wallace" },
-        "male": { "firstName": "Lincoln", "lastName": "Woods" }
-      },
-      {
-        "coupleId": "K01",
-        "female": { "firstName": "Allison", "lastName": "Cole" },
-        "male": { "firstName": "Jayden", "lastName": "West" }
-      },
-      {
-        "coupleId": "K02",
-        "female": { "firstName": "Madelyn", "lastName": "Jordan" },
-        "male": { "firstName": "Adrian", "lastName": "Reynolds" }
-      },
-      {
-        "coupleId": "K03",
-        "female": { "firstName": "Aurora", "lastName": "Fisher" },
-        "male": { "firstName": "Jeremiah", "lastName": "Ellis" }
-      },
-      {
-        "coupleId": "K04",
-        "female": { "firstName": "Samantha", "lastName": "Gibson" },
-        "male": { "firstName": "Ezra", "lastName": "Harvey" }
-      }
-    ]
+[
+  {
+    "id": "couple-1",
+    "coupleNumber": 1,
+    "name": "Montreal Cain & Breona Johnson Allen",
+    "categoryId": "BEGINNERS",
+    "female": {
+      "firstName": "Breona",
+      "lastName": "Johnson Allen"
+    },
+    "male": {
+      "firstName": "Montreal",
+      "lastName": "Cain"
+    }
+  },
+  {
+    "id": "couple-2",
+    "coupleNumber": 2,
+    "name": "Kevun Irvins & Myracle Rubio",
+    "categoryId": "BEGINNERS",
+    "female": {
+      "firstName": "Myracle",
+      "lastName": "Rubio"
+    },
+    "male": {
+      "firstName": "Kevun",
+      "lastName": "Irvins"
+    }
+  },
+  {
+    "id": "couple-3",
+    "coupleNumber": 3,
+    "name": "Ryan Robinson & Krystal Holmes",
+    "categoryId": "BEGINNERS",
+    "female": {
+      "firstName": "Krystal",
+      "lastName": "Holmes"
+    },
+    "male": {
+      "firstName": "Ryan",
+      "lastName": "Robinson"
+    }
+  },
+  {
+    "id": "couple-4",
+    "coupleNumber": 4,
+    "name": "Tre (Treezy) Thomas & Kewn (K.J.) Jones",
+    "categoryId": "BEGINNERS",
+    "female": {
+      "firstName": "Kewn (K.J.)",
+      "lastName": "Jones"
+    },
+    "male": {
+      "firstName": "Tre (Treezy)",
+      "lastName": "Thomas"
+    }
+  },
+  {
+    "id": "couple-1",
+    "coupleNumber": 1,
+    "name": "Mark Alexander & Oni Faulkner",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Oni",
+      "lastName": "Faulkner"
+    },
+    "male": {
+      "firstName": "Mark",
+      "lastName": "Alexander"
+    }
+  },
+  {
+    "id": "couple-2",
+    "coupleNumber": 2,
+    "name": "Dre Bell & Jamie Anderson",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Jamie",
+      "lastName": "Anderson"
+    },
+    "male": {
+      "firstName": "Dre",
+      "lastName": "Bell"
+    }
+  },
+  {
+    "id": "couple-3",
+    "coupleNumber": 3,
+    "name": "Arnel (Tech) Cross & Amanda Anderson",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Amanda",
+      "lastName": "Anderson"
+    },
+    "male": {
+      "firstName": "Arnel (Tech)",
+      "lastName": "Cross"
+    }
+  },
+  {
+    "id": "couple-4",
+    "coupleNumber": 4,
+    "name": "Frederic (Freeze) Dowd & Slyvella Davis",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Slyvella",
+      "lastName": "Davis"
+    },
+    "male": {
+      "firstName": "Frederic (Freeze)",
+      "lastName": "Dowd"
+    }
+  },
+  {
+    "id": "couple-5",
+    "coupleNumber": 5,
+    "name": "Allen Downer & Genevieve Barber",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Genevieve",
+      "lastName": "Barber"
+    },
+    "male": {
+      "firstName": "Allen",
+      "lastName": "Downer"
+    }
+  },
+  {
+    "id": "couple-6",
+    "coupleNumber": 6,
+    "name": "Feo Duncan & Brandie Wright",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Brandie",
+      "lastName": "Wright"
+    },
+    "male": {
+      "firstName": "Feo",
+      "lastName": "Duncan"
+    }
+  },
+  {
+    "id": "couple-7",
+    "coupleNumber": 7,
+    "name": "Malik Evans & Elissa Hall",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Elissa",
+      "lastName": "Hall"
+    },
+    "male": {
+      "firstName": "Malik",
+      "lastName": "Evans"
+    }
+  },
+  {
+    "id": "couple-8",
+    "coupleNumber": 8,
+    "name": "Armando (Doe) Gamble & Theresa Gee",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Theresa",
+      "lastName": "Gee"
+    },
+    "male": {
+      "firstName": "Armando (Doe)",
+      "lastName": "Gamble"
+    }
+  },
+  {
+    "id": "couple-9",
+    "coupleNumber": 9,
+    "name": "Tori Jones & Elena Elmore",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Elena",
+      "lastName": "Elmore"
+    },
+    "male": {
+      "firstName": "Tori",
+      "lastName": "Jones"
+    }
+  },
+  {
+    "id": "couple-10",
+    "coupleNumber": 10,
+    "name": "Le Lias & Darling Bains",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Darling",
+      "lastName": "Bains"
+    },
+    "male": {
+      "firstName": "Le",
+      "lastName": "Lias"
+    }
+  },
+  {
+    "id": "couple-11",
+    "coupleNumber": 11,
+    "name": "JR Riddle & Jennie Maddox",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Jennie",
+      "lastName": "Maddox"
+    },
+    "male": {
+      "firstName": "JR",
+      "lastName": "Riddle"
+    }
+  },
+  {
+    "id": "couple-12",
+    "coupleNumber": 12,
+    "name": "Dawud Shareef & Jordan Muhammed",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Jordan",
+      "lastName": "Muhammed"
+    },
+    "male": {
+      "firstName": "Dawud",
+      "lastName": "Shareef"
+    }
+  },
+  {
+    "id": "couple-13",
+    "coupleNumber": 13,
+    "name": "Barack Swanigan & Toni Smiley (TBD)",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Toni Smiley",
+      "lastName": "(TBD)"
+    },
+    "male": {
+      "firstName": "Barack",
+      "lastName": "Swanigan"
+    }
+  },
+  {
+    "id": "couple-14",
+    "coupleNumber": 14,
+    "name": "Trey (Nikee) Young & Sandi Abril",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Sandi",
+      "lastName": "Abril"
+    },
+    "male": {
+      "firstName": "Trey (Nikee)",
+      "lastName": "Young"
+    }
+  },
+  {
+    "id": "couple-1",
+    "coupleNumber": 1,
+    "name": "Royce D. Banks & Alissha Hopes",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Alissha",
+      "lastName": "Hopes"
+    },
+    "male": {
+      "firstName": "Royce D.",
+      "lastName": "Banks"
+    }
+  },
+  {
+    "id": "couple-2",
+    "coupleNumber": 2,
+    "name": "Michael Bennett (Mike B) & Shelly Holder",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Shelly",
+      "lastName": "Holder"
+    },
+    "male": {
+      "firstName": "Michael Bennett (Mike",
+      "lastName": "B)"
+    }
+  },
+  {
+    "id": "couple-3",
+    "coupleNumber": 3,
+    "name": "Jamil Bey & Lannette (Lucki) Banks",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Lannette (Lucki)",
+      "lastName": "Banks"
+    },
+    "male": {
+      "firstName": "Jamil",
+      "lastName": "Bey"
+    }
+  },
+  {
+    "id": "couple-4",
+    "coupleNumber": 4,
+    "name": "Ron Brown & Keynnia Day",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Keynnia",
+      "lastName": "Day"
+    },
+    "male": {
+      "firstName": "Ron",
+      "lastName": "Brown"
+    }
+  },
+  {
+    "id": "couple-5",
+    "coupleNumber": 5,
+    "name": "Reggie Clayton & Sherrie Martin",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Sherrie",
+      "lastName": "Martin"
+    },
+    "male": {
+      "firstName": "Reggie",
+      "lastName": "Clayton"
+    }
+  },
+  {
+    "id": "couple-6",
+    "coupleNumber": 6,
+    "name": "Richard Cochran & Michelle Bradley",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Michelle",
+      "lastName": "Bradley"
+    },
+    "male": {
+      "firstName": "Richard",
+      "lastName": "Cochran"
+    }
+  },
+  {
+    "id": "couple-7",
+    "coupleNumber": 7,
+    "name": "Walt Fayne & Henrietta Winfield",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Henrietta",
+      "lastName": "Winfield"
+    },
+    "male": {
+      "firstName": "Walt",
+      "lastName": "Fayne"
+    }
+  },
+  {
+    "id": "couple-8",
+    "coupleNumber": 8,
+    "name": "Dorrell (Coach Ras) Howard & Spiritual Howard",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Spiritual",
+      "lastName": "Howard"
+    },
+    "male": {
+      "firstName": "Dorrell (Coach Ras)",
+      "lastName": "Howard"
+    }
+  },
+  {
+    "id": "couple-9",
+    "coupleNumber": 9,
+    "name": "Herb Ihenacho & Tonya London",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Tonya",
+      "lastName": "London"
+    },
+    "male": {
+      "firstName": "Herb",
+      "lastName": "Ihenacho"
+    }
+  },
+  {
+    "id": "couple-10",
+    "coupleNumber": 10,
+    "name": "Jesse McDaniels & Christine Chavez",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Christine",
+      "lastName": "Chavez"
+    },
+    "male": {
+      "firstName": "Jesse",
+      "lastName": "McDaniels"
+    }
+  },
+  {
+    "id": "couple-11",
+    "coupleNumber": 11,
+    "name": "Jonathan McDougald & Shani Johnson",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Shani",
+      "lastName": "Johnson"
+    },
+    "male": {
+      "firstName": "Jonathan",
+      "lastName": "McDougald"
+    }
+  },
+  {
+    "id": "couple-12",
+    "coupleNumber": 12,
+    "name": "Scorpio & Coco Ramsey",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Coco",
+      "lastName": "Ramsey"
+    },
+    "male": {
+      "firstName": "Scorpio",
+      "lastName": ""
+    }
+  },
+  {
+    "id": "couple-13",
+    "coupleNumber": 13,
+    "name": "Barack Swanigan & Shonette (Butterfly) Holland (TBD)",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Shonette (Butterfly) Holland",
+      "lastName": "(TBD)"
+    },
+    "male": {
+      "firstName": "Barack",
+      "lastName": "Swanigan"
+    }
+  },
+  {
+    "id": "couple-14",
+    "coupleNumber": 14,
+    "name": "Jared Taylor & Tianna Ross Damon",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Tianna Ross",
+      "lastName": "Damon"
+    },
+    "male": {
+      "firstName": "Jared",
+      "lastName": "Taylor"
+    }
+  },
+  {
+    "id": "couple-15",
+    "coupleNumber": 15,
+    "name": "Auntrell (Steppin Trell) White & Ericka Jones",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Ericka",
+      "lastName": "Jones"
+    },
+    "male": {
+      "firstName": "Auntrell (Steppin Trell)",
+      "lastName": "White"
+    }
+  },
+  {
+    "id": "couple-16",
+    "coupleNumber": 16,
+    "name": "Kirk White & Bridgett White",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Bridgett",
+      "lastName": "White"
+    },
+    "male": {
+      "firstName": "Kirk",
+      "lastName": "White"
+    }
+  },
+  {
+    "id": "couple-1",
+    "coupleNumber": 1,
+    "name": "DA Peaches Anderson & Cheri Lilly-Daniel",
+    "categoryId": "OVER_60",
+    "female": {
+      "firstName": "Cheri",
+      "lastName": "Lilly-Daniel"
+    },
+    "male": {
+      "firstName": "DA Peaches",
+      "lastName": "Anderson"
+    }
+  },
+  {
+    "id": "couple-2",
+    "coupleNumber": 2,
+    "name": "Rodney Clark & Tracey Collins",
+    "categoryId": "OVER_60",
+    "female": {
+      "firstName": "Tracey",
+      "lastName": "Collins"
+    },
+    "male": {
+      "firstName": "Rodney",
+      "lastName": "Clark"
+    }
+  },
+  {
+    "id": "couple-3",
+    "coupleNumber": 3,
+    "name": "Tim McGary & Toni Cleaves",
+    "categoryId": "OVER_60",
+    "female": {
+      "firstName": "Toni",
+      "lastName": "Cleaves"
+    },
+    "male": {
+      "firstName": "Tim",
+      "lastName": "McGary"
+    }
+  },
+  {
+    "id": "couple-4",
+    "coupleNumber": 4,
+    "name": "Jerry McNair & Chessie Smith",
+    "categoryId": "OVER_60",
+    "female": {
+      "firstName": "Chessie",
+      "lastName": "Smith"
+    },
+    "male": {
+      "firstName": "Jerry",
+      "lastName": "McNair"
+    }
+  },
+  {
+    "id": "couple-5",
+    "coupleNumber": 5,
+    "name": "Muhammed & Cheryl Jackson",
+    "categoryId": "OVER_60",
+    "female": {
+      "firstName": "Cheryl",
+      "lastName": "Jackson"
+    },
+    "male": {
+      "firstName": "Muhammed",
+      "lastName": ""
+    }
+  },
+  {
+    "id": "couple-1",
+    "coupleNumber": 1,
+    "name": "Michael (Mike B) Bennett & Bridget Piggüe",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Bridget",
+      "lastName": "Piggüe"
+    },
+    "male": {
+      "firstName": "Michael (Mike B)",
+      "lastName": "Bennett"
+    }
+  },
+  {
+    "id": "couple-2",
+    "coupleNumber": 2,
+    "name": "Ron Brown & Key Day",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Key",
+      "lastName": "Day"
+    },
+    "male": {
+      "firstName": "Ron",
+      "lastName": "Brown"
+    }
+  },
+  {
+    "id": "couple-3",
+    "coupleNumber": 3,
+    "name": "Rodney Clark & Tracey Collins",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Tracey",
+      "lastName": "Collins"
+    },
+    "male": {
+      "firstName": "Rodney",
+      "lastName": "Clark"
+    }
+  },
+  {
+    "id": "couple-4",
+    "coupleNumber": 4,
+    "name": "Reggie Clayton & Dori (GG) Lee",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Dori (GG)",
+      "lastName": "Lee"
+    },
+    "male": {
+      "firstName": "Reggie",
+      "lastName": "Clayton"
+    }
+  },
+  {
+    "id": "couple-5",
+    "coupleNumber": 5,
+    "name": "Frederic (Freeze) Dowd & Slyvella Davis",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Slyvella",
+      "lastName": "Davis"
+    },
+    "male": {
+      "firstName": "Frederic (Freeze)",
+      "lastName": "Dowd"
+    }
+  },
+  {
+    "id": "couple-6",
+    "coupleNumber": 6,
+    "name": "Allen Downer & Genevieve Barber",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Genevieve",
+      "lastName": "Barber"
+    },
+    "male": {
+      "firstName": "Allen",
+      "lastName": "Downer"
+    }
+  },
+  {
+    "id": "couple-7",
+    "coupleNumber": 7,
+    "name": "Feo Duncan & Brandie Wright",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Brandie",
+      "lastName": "Wright"
+    },
+    "male": {
+      "firstName": "Feo",
+      "lastName": "Duncan"
+    }
+  },
+  {
+    "id": "couple-8",
+    "coupleNumber": 8,
+    "name": "Armando Gamble & Oni Faulkner",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Oni",
+      "lastName": "Faulkner"
+    },
+    "male": {
+      "firstName": "Armando",
+      "lastName": "Gamble"
+    }
+  },
+  {
+    "id": "couple-9",
+    "coupleNumber": 9,
+    "name": "Bobby Green & Wanda Scales",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Wanda",
+      "lastName": "Scales"
+    },
+    "male": {
+      "firstName": "Bobby",
+      "lastName": "Green"
+    }
+  },
+  {
+    "id": "couple-10",
+    "coupleNumber": 10,
+    "name": "Dorrell (Coach Ras) Howard & Spiritual Howard",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Spiritual",
+      "lastName": "Howard"
+    },
+    "male": {
+      "firstName": "Dorrell (Coach Ras)",
+      "lastName": "Howard"
+    }
+  },
+  {
+    "id": "couple-11",
+    "coupleNumber": 11,
+    "name": "Josh McCloudy & Shelly Holder",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Shelly",
+      "lastName": "Holder"
+    },
+    "male": {
+      "firstName": "Josh",
+      "lastName": "McCloudy"
+    }
+  },
+  {
+    "id": "couple-12",
+    "coupleNumber": 12,
+    "name": "Jesse McDaniels & Christine Chavez",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Christine",
+      "lastName": "Chavez"
+    },
+    "male": {
+      "firstName": "Jesse",
+      "lastName": "McDaniels"
+    }
+  },
+  {
+    "id": "couple-13",
+    "coupleNumber": 13,
+    "name": "Jonathan McDougald & Shani Johnson",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Shani",
+      "lastName": "Johnson"
+    },
+    "male": {
+      "firstName": "Jonathan",
+      "lastName": "McDougald"
+    }
+  },
+  {
+    "id": "couple-14",
+    "coupleNumber": 14,
+    "name": "Muhammad & Debra Goode",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Debra",
+      "lastName": "Goode"
+    },
+    "male": {
+      "firstName": "Muhammad",
+      "lastName": ""
+    }
+  },
+  {
+    "id": "couple-15",
+    "coupleNumber": 15,
+    "name": "Danny Stone & Tasha Holmes",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Tasha",
+      "lastName": "Holmes"
+    },
+    "male": {
+      "firstName": "Danny",
+      "lastName": "Stone"
+    }
+  },
+  {
+    "id": "couple-16",
+    "coupleNumber": 16,
+    "name": "Barack Swanigan & Brittnea Miller",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Brittnea",
+      "lastName": "Miller"
+    },
+    "male": {
+      "firstName": "Barack",
+      "lastName": "Swanigan"
+    }
+  },
+  {
+    "id": "couple-17",
+    "coupleNumber": 17,
+    "name": "Trey (Nikee) Young & Sandi Abril",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Sandi",
+      "lastName": "Abril"
+    },
+    "male": {
+      "firstName": "Trey (Nikee)",
+      "lastName": "Young"
+    }
   }
+]

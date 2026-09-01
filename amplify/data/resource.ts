@@ -6,12 +6,81 @@ adding a new "isDone" field as a boolean. The authorization rule below
 specifies that any unauthenticated user can "create", "read", "update", 
 and "delete" any "Todo" records.
 =========================================================================*/
+
 const schema = a.schema({
-  Todo: a
-    .model({
-      content: a.string(),
-    })
-    .authorization((allow) => [allow.guest()]),
+
+  PersonName: a.customType({
+    firstName: a.string().required(),
+    lastName: a.string().required(),
+  }),
+
+  // ===============================
+  // CATEGORY
+  // ===============================
+  Category: a.model({
+    name: a.string().required(),
+    description: a.string(),
+    displayOrder: a.integer(),
+    displayName: a.string(),
+    votingOpen: a.boolean(),
+
+    // One category has many couples
+    couples: a.hasMany('Couple', 'categoryId'),
+
+    // One category has many ballots
+    ballots: a.hasMany('Ballot', 'categoryId'),
+  }),
+
+  // ===============================
+  // COUPLE
+  // ===============================
+  Couple: a.model({
+    coupleNumber: a.integer().required(),
+    name: a.string().required(),
+    female: a.ref('PersonName'),
+    male: a.ref('PersonName'),
+    imageUrl: a.string(),
+
+    // Foreign key
+    categoryId: a.id().required(),
+
+    // Couple belongs to a category
+    category: a.belongsTo('Category', 'categoryId'),
+  }),
+
+  // ===============================
+  // VOTER
+  // ===============================
+  Voter: a.model({
+    firstName: a.string(),
+    lastName: a.string(),
+    phoneNumber: a.string().required(),
+    phoneVerified: a.boolean(),
+
+    // One voter can have several ballots
+    ballots: a.hasMany('Ballot', 'voterId'),
+  }),
+
+  // ===============================
+  // BALLOT
+  // ===============================
+  Ballot: a.model({
+    voterId: a.id().required(),
+    categoryId: a.id().required(),
+
+    firstPlaceCoupleId: a.id().required(),
+    secondPlaceCoupleId: a.id().required(),
+    thirdPlaceCoupleId: a.id().required(),
+
+    voter: a.belongsTo('Voter', 'voterId'),
+    category: a.belongsTo('Category', 'categoryId'),
+
+  })
+
+  // IMPORTANT:
+  // One ballot per voter per category
+  .identifier(['voterId', 'categoryId']),
+
 });
 
 export type Schema = ClientSchema<typeof schema>;
@@ -19,7 +88,11 @@ export type Schema = ClientSchema<typeof schema>;
 export const data = defineData({
   schema,
   authorizationModes: {
-    defaultAuthorizationMode: 'identityPool',
+    defaultAuthorizationMode: 'apiKey',
+
+    apiKeyAuthorizationMode: {
+      expiresInDays: 30,
+    },
   },
 });
 
