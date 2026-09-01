@@ -1,0 +1,420 @@
+[
+  {
+    "_id": "10001",
+    "sessionId": "665f7c2e8b3e2a1a2b123456",
+    "selection": {
+      "beginners": { "1st": "B12", "2nd": "B08", "3rd": "B21" },
+      "new_school": { "1st": "A04", "2nd": "B11", "3rd": "C02" },
+      "old_school": { "1st": "F07", "2nd": "G01", "3rd": "H12" },
+      "trios": { "1st": "K03", "2nd": "L09", "3rd": "K01" },
+      "walkers": { "1st": "J05", "2nd": "K02", "3rd": "J11" }
+    }
+  },
+  {
+    "_id": "10002",
+    "sessionId": "665f7c2e8b3e2a1a2b123457",
+    "selection": {
+      "beginners": { "1st": "B15", "2nd": "B03", "3rd": "B19" },
+      "new_school": { "1st": "B02", "2nd": "C05", "3rd": "D01" },
+      "old_school": { "1st": "G03", "2nd": "H05", "3rd": "I02" },
+      "trios": { "1st": "L01", "2nd": "K05", "3rd": "L03" },
+      "walkers": { "1st": "K01", "2nd": "J03", "3rd": "K04" }
+    }
+  },
+  {
+    "_id": "10003",
+    "sessionId": "665f7c2e8b3e2a1a2b123458",
+    "selection": {
+      "beginners": { "1st": "B07", "2nd": "B14", "3rd": "B06" },
+      "new_school": { "1st": "C01", "2nd": "A03", "3rd": "E02" },
+      "old_school": { "1st": "F02", "2nd": "I01", "3rd": "G05" },
+      "trios": { "1st": "K05", "2nd": "L02", "3rd": "L04" },
+      "walkers": { "1st": "J02", "2nd": "K03", "3rd": "J01" }
+    }
+  },
+  {
+    "_id": "10004",
+    "sessionId": "665f7c2e8b3e2a1a2b123459",
+    "selection": {
+      "beginners": { "1st": "B11", "2nd": "B20", "3rd": "B13" },
+      "new_school": { "1st": "D03", "2nd": "B05", "3rd": "A01" },
+      "old_school": { "1st": "H01", "2nd": "F04", "3rd": "I03" },
+      "trios": { "1st": "L02", "2nd": "K05", "3rd": "L01" },
+      "walkers": { "1st": "K04", "2nd": "J05", "3rd": "K02" }
+    }
+  },
+  {
+    "_id": "10005",
+    "sessionId": "665f7c2e8b3e2a1a2b123460",
+    "selection": {
+      "beginners": { "1st": "B09", "2nd": "B16", "3rd": "B10" },
+      "new_school": { "1st": "E01", "2nd": "D02", "3rd": "C03" },
+      "old_school": { "1st": "I04", "2nd": "G02", "3rd": "F05" },
+      "trios": { "1st": "L03", "2nd": "L04", "3rd": "K05" },
+      "walkers": { "1st": "J04", "2nd": "K01", "3rd": "J03" }
+    }
+  },
+  {
+    "_id": "10006",
+    "sessionId": "665f7c2e8b3e2a1a2b123461",
+    "selection": {
+      "beginners": { "1st": "B18", "2nd": "B05", "3rd": "B17" },
+      "new_school": { "1st": "A05", "2nd": "E03", "3rd": "B04" },
+      "old_school": { "1st": "F01", "2nd": "H03", "3rd": "G04" },
+      "trios": { "1st": "L04", "2nd": "L01", "3rd": "L02" },
+      "walkers": { "1st": "K03", "2nd": "J02", "3rd": "K04" }
+    }
+  },
+  {
+    "_id": "10007",
+    "sessionId": "665f7c2e8b3e2a1a2b123462",
+    "selection": {
+      "beginners": { "1st": "B06", "2nd": "B19", "3rd": "B12" },
+      "new_school": { "1st": "C04", "2nd": "A02", "3rd": "D04" },
+      "old_school": { "1st": "G05", "2nd": "I05", "3rd": "H02" },
+      "trios": { "1st": "K05", "2nd": "L03", "3rd": "L04" },
+      "walkers": { "1st": "J01", "2nd": "K02", "3rd": "J05" }
+    }
+  },
+  {
+    "_id": "10008",
+    "sessionId": "665f7c2e8b3e2a1a2b123463",
+    "selection": {
+      "beginners": { "1st": "B13", "2nd": "B07", "3rd": "B15" },
+      "new_school": { "1st": "B01", "2nd": "C05", "3rd": "E04" },
+      "old_school": { "1st": "H04", "2nd": "F03", "3rd": "I01" },
+      "trios": { "1st": "L01", "2nd": "K05", "3rd": "L02" },
+      "walkers": { "1st": "K02", "2nd": "J04", "3rd": "K01" }
+    }
+  },
+  {
+    "_id": "10009",
+    "sessionId": "665f7c2e8b3e2a1a2b123464",
+    "selection": {
+      "beginners": { "1st": "B21", "2nd": "B11", "3rd": "B08" },
+      "new_school": { "1st": "D05", "2nd": "B03", "3rd": "A04" },
+      "old_school": { "1st": "F05", "2nd": "G01", "3rd": "H05" },
+      "trios": { "1st": "L02", "2nd": "L04", "3rd": "K05" },
+      "walkers": { "1st": "J03", "2nd": "K04", "3rd": "J02" }
+    }
+  },
+  {
+    "_id": "10010",
+    "sessionId": "665f7c2e8b3e2a1a2b123465",
+    "selection": {
+      "beginners": { "1st": "B14", "2nd": "B20", "3rd": "B09" },
+      "new_school": { "1st": "E05", "2nd": "D01", "3rd": "C01" },
+      "old_school": { "1st": "I02", "2nd": "H01", "3rd": "F02" },
+      "trios": { "1st": "L03", "2nd": "L01", "3rd": "L04" },
+      "walkers": { "1st": "K01", "2nd": "J05", "3rd": "K03" }
+    }
+  },
+  {
+    "_id": "10011",
+    "sessionId": "665f7c2e8b3e2a1a2b123466",
+    "selection": {
+      "beginners": { "1st": "B16", "2nd": "B06", "3rd": "B18" },
+      "new_school": { "1st": "A01", "2nd": "E02", "3rd": "B05" },
+      "old_school": { "1st": "G03", "2nd": "F04", "3rd": "I03" },
+      "trios": { "1st": "L04", "2nd": "K05", "3rd": "L01" },
+      "walkers": { "1st": "J04", "2nd": "K02", "3rd": "J01" }
+    }
+  },
+  {
+    "_id": "10012",
+    "sessionId": "665f7c2e8b3e2a1a2b123467",
+    "selection": {
+      "beginners": { "1st": "B10", "2nd": "B17", "3rd": "B13" },
+      "new_school": { "1st": "C02", "2nd": "A05", "3rd": "D02" },
+      "old_school": { "1st": "H02", "2nd": "I04", "3rd": "G05" },
+      "trios": { "1st": "K05", "2nd": "L02", "3rd": "L03" },
+      "walkers": { "1st": "K04", "2nd": "J03", "3rd": "K01" }
+    }
+  },
+  {
+    "_id": "10013",
+    "sessionId": "665f7c2e8b3e2a1a2b123468",
+    "selection": {
+      "beginners": { "1st": "B19", "2nd": "B12", "3rd": "B21" },
+      "new_school": { "1st": "D03", "2nd": "C04", "3rd": "E01" },
+      "old_school": { "1st": "F01", "2nd": "G02", "3rd": "H03" },
+      "trios": { "1st": "L01", "2nd": "L03", "3rd": "K05" },
+      "walkers": { "1st": "J05", "2nd": "K01", "3rd": "J02" }
+    }
+  },
+  {
+    "_id": "10014",
+    "sessionId": "665f7c2e8b3e2a1a2b123469",
+    "selection": {
+      "beginners": { "1st": "B05", "2nd": "B15", "3rd": "B07" },
+      "new_school": { "1st": "B02", "2nd": "D04", "3rd": "A03" },
+      "old_school": { "1st": "I05", "2nd": "F05", "3rd": "G04" },
+      "trios": { "1st": "L02", "2nd": "K05", "3rd": "L04" },
+      "walkers": { "1st": "K03", "2nd": "J04", "3rd": "K02" }
+    }
+  },
+  {
+    "_id": "10015",
+    "sessionId": "665f7c2e8b3e2a1a2b123470",
+    "selection": {
+      "beginners": { "1st": "B08", "2nd": "B14", "3rd": "B20" },
+      "new_school": { "1st": "E03", "2nd": "B01", "3rd": "C05" },
+      "old_school": { "1st": "G01", "2nd": "H04", "3rd": "I01" },
+      "trios": { "1st": "L03", "2nd": "L04", "3rd": "L01" },
+      "walkers": { "1st": "J02", "2nd": "K04", "3rd": "J03" }
+    }
+  },
+  {
+    "_id": "10016",
+    "sessionId": "665f7c2e8b3e2a1a2b123471",
+    "selection": {
+      "beginners": { "1st": "B11", "2nd": "B09", "3rd": "B16" },
+      "new_school": { "1st": "D05", "2nd": "E04", "3rd": "A02" },
+      "old_school": { "1st": "H05", "2nd": "I02", "3rd": "F03" },
+      "trios": { "1st": "L04", "2nd": "L01", "3rd": "K05" },
+      "walkers": { "1st": "K01", "2nd": "J01", "3rd": "K04" }
+    }
+  },
+  {
+    "_id": "10017",
+    "sessionId": "665f7c2e8b3e2a1a2b123472",
+    "selection": {
+      "beginners": { "1st": "B17", "2nd": "B06", "3rd": "B10" },
+      "new_school": { "1st": "A04", "2nd": "C01", "3rd": "B04" },
+      "old_school": { "1st": "F02", "2nd": "G03", "3rd": "I03" },
+      "trios": { "1st": "K05", "2nd": "L02", "3rd": "L01" },
+      "walkers": { "1st": "J05", "2nd": "K02", "3rd": "J04" }
+    }
+  },
+  {
+    "_id": "10018",
+    "sessionId": "665f7c2e8b3e2a1a2b123473",
+    "selection": {
+      "beginners": { "1st": "B12", "2nd": "B18", "3rd": "B19" },
+      "new_school": { "1st": "C03", "2nd": "D01", "3rd": "E05" },
+      "old_school": { "1st": "I04", "2nd": "H01", "3rd": "G05" },
+      "trios": { "1st": "L01", "2nd": "K05", "3rd": "L03" },
+      "walkers": { "1st": "K02", "2nd": "J03", "3rd": "K01" }
+    }
+  },
+  {
+    "_id": "10019",
+    "sessionId": "665f7c2e8b3e2a1a2b123474",
+    "selection": {
+      "beginners": { "1st": "B21", "2nd": "B13", "3rd": "B05" },
+      "new_school": { "1st": "B05", "2nd": "E01", "3rd": "D02" },
+      "old_school": { "1st": "G02", "2nd": "F04", "3rd": "H02" },
+      "trios": { "1st": "L02", "2nd": "L03", "3rd": "L04" },
+      "walkers": { "1st": "J01", "2nd": "K04", "3rd": "J05" }
+    }
+  },
+  {
+    "_id": "10020",
+    "sessionId": "665f7c2e8b3e2a1a2b123475",
+    "selection": {
+      "beginners": { "1st": "B15", "2nd": "B21", "3rd": "B08" },
+      "new_school": { "1st": "D04", "2nd": "A01", "3rd": "C02" },
+      "old_school": { "1st": "H03", "2nd": "I05", "3rd": "F01" },
+      "trios": { "1st": "L03", "2nd": "L04", "3rd": "K05" },
+      "walkers": { "1st": "K03", "2nd": "J02", "3rd": "K02" }
+    }
+  },
+  {
+    "_id": "10021",
+    "sessionId": "665f7c2e8b3e2a1a2b123476",
+    "selection": {
+      "beginners": { "1st": "B07", "2nd": "B11", "3rd": "B14" },
+      "new_school": { "1st": "E02", "2nd": "C05", "3rd": "B03" },
+      "old_school": { "1st": "F05", "2nd": "G01", "3rd": "I01" },
+      "trios": { "1st": "L04", "2nd": "K05", "3rd": "L02" },
+      "walkers": { "1st": "J04", "2nd": "K01", "3rd": "J03" }
+    }
+  },
+  {
+    "_id": "10022",
+    "sessionId": "665f7c2e8b3e2a1a2b123477",
+    "selection": {
+      "beginners": { "1st": "B20", "2nd": "B16", "3rd": "B09" },
+      "new_school": { "1st": "A05", "2nd": "D03", "3rd": "E03" },
+      "old_school": { "1st": "I02", "2nd": "H04", "3rd": "G03" },
+      "trios": { "1st": "K05", "2nd": "L01", "3rd": "L04" },
+      "walkers": { "1st": "K04", "2nd": "J05", "3rd": "K01" }
+    }
+  },
+  {
+    "_id": "10023",
+    "sessionId": "665f7c2e8b3e2a1a2b123478",
+    "selection": {
+      "beginners": { "1st": "B06", "2nd": "B17", "3rd": "B10" },
+      "new_school": { "1st": "C04", "2nd": "B02", "3rd": "A03" },
+      "old_school": { "1st": "G04", "2nd": "F02", "3rd": "H05" },
+      "trios": { "1st": "L01", "2nd": "L02", "3rd": "L03" },
+      "walkers": { "1st": "J02", "2nd": "K03", "3rd": "J01" }
+    }
+  },
+  {
+    "_id": "10024",
+    "sessionId": "665f7c2e8b3e2a1a2b123479",
+    "selection": {
+      "beginners": { "1st": "B18", "2nd": "B12", "3rd": "B19" },
+      "new_school": { "1st": "D05", "2nd": "E04", "3rd": "C01" },
+      "old_school": { "1st": "H01", "2nd": "I03", "3rd": "F03" },
+      "trios": { "1st": "L02", "2nd": "K05", "3rd": "L01" },
+      "walkers": { "1st": "K02", "2nd": "J04", "3rd": "K04" }
+    }
+  },
+  {
+    "_id": "10025",
+    "sessionId": "665f7c2e8b3e2a1a2b123480",
+    "selection": {
+      "beginners": { "1st": "B13", "2nd": "B05", "3rd": "B21" },
+      "new_school": { "1st": "B01", "2nd": "A02", "3rd": "D01" },
+      "old_school": { "1st": "I04", "2nd": "G05", "3rd": "F04" },
+      "trios": { "1st": "L03", "2nd": "L04", "3rd": "K05" },
+      "walkers": { "1st": "J03", "2nd": "K01", "3rd": "J05" }
+    }
+  },
+  {
+    "_id": "10026",
+    "sessionId": "665f7c2e8b3e2a1a2b123481",
+    "selection": {
+      "beginners": { "1st": "B09", "2nd": "B15", "3rd": "B07" },
+      "new_school": { "1st": "E05", "2nd": "B04", "3rd": "C03" },
+      "old_school": { "1st": "F01", "2nd": "H02", "3rd": "I05" },
+      "trios": { "1st": "L04", "2nd": "L01", "3rd": "L02" },
+      "walkers": { "1st": "K01", "2nd": "J02", "3rd": "K03" }
+    }
+  },
+  {
+    "_id": "10027",
+    "sessionId": "665f7c2e8b3e2a1a2b123482",
+    "selection": {
+      "beginners": { "1st": "B14", "2nd": "B08", "3rd": "B20" },
+      "new_school": { "1st": "A04", "2nd": "C02", "3rd": "E01" },
+      "old_school": { "1st": "G01", "2nd": "I01", "3rd": "H03" },
+      "trios": { "1st": "K05", "2nd": "L02", "3rd": "L03" },
+      "walkers": { "1st": "J01", "2nd": "K04", "3rd": "J04" }
+    }
+  },
+  {
+    "_id": "10028",
+    "sessionId": "665f7c2e8b3e2a1a2b123483",
+    "selection": {
+      "beginners": { "1st": "B16", "2nd": "B11", "3rd": "B06" },
+      "new_school": { "1st": "D02", "2nd": "E02", "3rd": "A01" },
+      "old_school": { "1st": "H04", "2nd": "F05", "3rd": "G02" },
+      "trios": { "1st": "L01", "2nd": "K05", "3rd": "L04" },
+      "walkers": { "1st": "K02", "2nd": "J05", "3rd": "K01" }
+    }
+  },
+  {
+    "_id": "10029",
+    "sessionId": "665f7c2e8b3e2a1a2b123484",
+    "selection": {
+      "beginners": { "1st": "B10", "2nd": "B17", "3rd": "B18" },
+      "new_school": { "1st": "C05", "2nd": "D04", "3rd": "B05" },
+      "old_school": { "1st": "I02", "2nd": "G03", "3rd": "F02" },
+      "trios": { "1st": "L02", "2nd": "L03", "3rd": "L01" },
+      "walkers": { "1st": "J04", "2nd": "K03", "3rd": "J02" }
+    }
+  },
+  {
+    "_id": "10030",
+    "sessionId": "665f7c2e8b3e2a1a2b123485",
+    "selection": {
+      "beginners": { "1st": "B19", "2nd": "B12", "3rd": "B13" },
+      "new_school": { "1st": "E03", "2nd": "A05", "3rd": "D05" },
+      "old_school": { "1st": "G04", "2nd": "H05", "3rd": "I03" },
+      "trios": { "1st": "L03", "2nd": "K05", "3rd": "L02" },
+      "walkers": { "1st": "K04", "2nd": "J01", "3rd": "K02" }
+    }
+  },
+  {
+    "_id": "10031",
+    "sessionId": "665f7c2e8b3e2a1a2b123486",
+    "selection": {
+      "beginners": { "1st": "B21", "2nd": "B09", "3rd": "B05" },
+      "new_school": { "1st": "B03", "2nd": "C01", "3rd": "A03" },
+      "old_school": { "1st": "F03", "2nd": "I04", "3rd": "H01" },
+      "trios": { "1st": "L04", "2nd": "L01", "3rd": "K05" },
+      "walkers": { "1st": "J05", "2nd": "K01", "3rd": "J03" }
+    }
+  },
+  {
+    "_id": "10032",
+    "sessionId": "665f7c2e8b3e2a1a2b123487",
+    "selection": {
+      "beginners": { "1st": "B15", "2nd": "B14", "3rd": "B07" },
+      "new_school": { "1st": "D01", "2nd": "B02", "3rd": "E04" },
+      "old_school": { "1st": "H02", "2nd": "F04", "3rd": "G05" },
+      "trios": { "1st": "K05", "2nd": "L02", "3rd": "L04" },
+      "walkers": { "1st": "K03", "2nd": "J04", "3rd": "K04" }
+    }
+  },
+  {
+    "_id": "10033",
+    "sessionId": "665f7c2e8b3e2a1a2b123488",
+    "selection": {
+      "beginners": { "1st": "B08", "2nd": "B20", "3rd": "B16" },
+      "new_school": { "1st": "C04", "2nd": "E05", "3rd": "B01" },
+      "old_school": { "1st": "I05", "2nd": "G01", "3rd": "F01" },
+      "trios": { "1st": "L01", "2nd": "L03", "3rd": "L02" },
+      "walkers": { "1st": "J02", "2nd": "K02", "3rd": "J01" }
+    }
+  },
+  {
+    "_id": "10034",
+    "sessionId": "665f7c2e8b3e2a1a2b123489",
+    "selection": {
+      "beginners": { "1st": "B11", "2nd": "B06", "3rd": "B10" },
+      "new_school": { "1st": "A02", "2nd": "D03", "3rd": "C02" },
+      "old_school": { "1st": "F05", "2nd": "H03", "3rd": "I01" },
+      "trios": { "1st": "L02", "2nd": "K05", "3rd": "L03" },
+      "walkers": { "1st": "K01", "2nd": "J05", "3rd": "K03" }
+    }
+  },
+  {
+    "_id": "10035",
+    "sessionId": "665f7c2e8b3e2a1a2b123490",
+    "selection": {
+      "beginners": { "1st": "B17", "2nd": "B18", "3rd": "B19" },
+      "new_school": { "1st": "E01", "2nd": "A04", "3rd": "D02" },
+      "old_school": { "1st": "G02", "2nd": "I02", "3rd": "H04" },
+      "trios": { "1st": "L03", "2nd": "L04", "3rd": "K05" },
+      "walkers": { "1st": "J03", "2nd": "K04", "3rd": "J04" }
+    }
+  },
+  {
+    "_id": "10036",
+    "sessionId": "665f7c2e8b3e2a1a2b123491",
+    "selection": {
+      "beginners": { "1st": "B12", "2nd": "B13", "3rd": "B21" },
+      "new_school": { "1st": "C03", "2nd": "B04", "3rd": "E02" },
+      "old_school": { "1st": "H05", "2nd": "F02", "3rd": "G03" },
+      "trios": { "1st": "L04", "2nd": "L01", "3rd": "L02" },
+      "walkers": { "1st": "K02", "2nd": "J01", "3rd": "K01" }
+    }
+  },
+  {
+    "_id": "10037",
+    "sessionId": "665f7c2e8b3e2a1a2b123492",
+    "selection": {
+      "beginners": { "1st": "B05", "2nd": "B09", "3rd": "B15" },
+      "new_school": { "1st": "D04", "2nd": "C05", "3rd": "A01" },
+      "old_school": { "1st": "I03", "2nd": "G04", "3rd": "F03" },
+      "trios": { "1st": "K05", "2nd": "L02", "3rd": "L01" },
+      "walkers": { "1st": "J05", "2nd": "K03", "3rd": "J02" }
+    }
+  },
+  {
+    "_id": "10038",
+    "sessionId": "665f7c2e8b3e2a1a2b123493",
+    "selection": {
+      "beginners": { "1st": "B14", "2nd": "B07", "3rd": "B08" },
+      "new_school": { "1st": "B05", "2nd": "E03", "3rd": "D05" },
+      "old_school": { "1st": "F04", "2nd": "H01", "3rd": "I04" },
+      "trios": { "1st": "L01", "2nd": "K05", "3rd": "L03" },
+      "walkers": { "1st": "K04", "2nd": "J04", "3rd": "K02" }
+    }
+  }
+]

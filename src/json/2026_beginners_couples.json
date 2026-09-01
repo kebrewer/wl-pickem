@@ -1,0 +1,58 @@
+[
+  {
+    "id": "couple-1",
+    "coupleNumber": 1,
+    "name": "Montreal Cain & Breona Johnson Allen",
+    "categoryId": "BEGINNERS",
+    "female": {
+      "firstName": "Breona",
+      "lastName": "Johnson Allen"
+    },
+    "male": {
+      "firstName": "Montreal",
+      "lastName": "Cain"
+    }
+  },
+  {
+    "id": "couple-2",
+    "coupleNumber": 2,
+    "name": "Kevun Irvins & Myracle Rubio",
+    "categoryId": "BEGINNERS",
+    "female": {
+      "firstName": "Myracle",
+      "lastName": "Rubio"
+    },
+    "male": {
+      "firstName": "Kevun",
+      "lastName": "Irvins"
+    }
+  },
+  {
+    "id": "couple-3",
+    "coupleNumber": 3,
+    "name": "Ryan Robinson & Krystal Holmes",
+    "categoryId": "BEGINNERS",
+    "female": {
+      "firstName": "Krystal",
+      "lastName": "Holmes"
+    },
+    "male": {
+      "firstName": "Ryan",
+      "lastName": "Robinson"
+    }
+  },
+  {
+    "id": "couple-4",
+    "coupleNumber": 4,
+    "name": "Tre (Treezy) Thomas & Kewn (K.J.) Jones",
+    "categoryId": "BEGINNERS",
+    "female": {
+      "firstName": "Kewn (K.J.)",
+      "lastName": "Jones"
+    },
+    "male": {
+      "firstName": "Tre (Treezy)",
+      "lastName": "Thomas"
+    }
+  }
+]

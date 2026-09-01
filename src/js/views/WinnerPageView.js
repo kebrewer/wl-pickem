@@ -1,0 +1,15 @@
+import AbstractView from './AbstractView.js';
+
+export default class extends AbstractView {
+  constructor(params) {
+    super(params);
+    this.setTitle('Winnners');
+  }
+
+  async getHtml() {
+    return `
+            <h1>Settings</h1>
+            <p>Manage winners.</p>
+        `;
+  }
+}

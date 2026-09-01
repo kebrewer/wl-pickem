@@ -1,0 +1,226 @@
+[
+  {
+    "id": "couple-1",
+    "coupleNumber": 1,
+    "name": "Royce D. Banks & Alissha Hopes",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Alissha",
+      "lastName": "Hopes"
+    },
+    "male": {
+      "firstName": "Royce D.",
+      "lastName": "Banks"
+    }
+  },
+  {
+    "id": "couple-2",
+    "coupleNumber": 2,
+    "name": "Michael Bennett (Mike B) & Shelly Holder",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Shelly",
+      "lastName": "Holder"
+    },
+    "male": {
+      "firstName": "Michael Bennett (Mike",
+      "lastName": "B)"
+    }
+  },
+  {
+    "id": "couple-3",
+    "coupleNumber": 3,
+    "name": "Jamil Bey & Lannette (Lucki) Banks",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Lannette (Lucki)",
+      "lastName": "Banks"
+    },
+    "male": {
+      "firstName": "Jamil",
+      "lastName": "Bey"
+    }
+  },
+  {
+    "id": "couple-4",
+    "coupleNumber": 4,
+    "name": "Ron Brown & Keynnia Day",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Keynnia",
+      "lastName": "Day"
+    },
+    "male": {
+      "firstName": "Ron",
+      "lastName": "Brown"
+    }
+  },
+  {
+    "id": "couple-5",
+    "coupleNumber": 5,
+    "name": "Reggie Clayton & Sherrie Martin",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Sherrie",
+      "lastName": "Martin"
+    },
+    "male": {
+      "firstName": "Reggie",
+      "lastName": "Clayton"
+    }
+  },
+  {
+    "id": "couple-6",
+    "coupleNumber": 6,
+    "name": "Richard Cochran & Michelle Bradley",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Michelle",
+      "lastName": "Bradley"
+    },
+    "male": {
+      "firstName": "Richard",
+      "lastName": "Cochran"
+    }
+  },
+  {
+    "id": "couple-7",
+    "coupleNumber": 7,
+    "name": "Walt Fayne & Henrietta Winfield",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Henrietta",
+      "lastName": "Winfield"
+    },
+    "male": {
+      "firstName": "Walt",
+      "lastName": "Fayne"
+    }
+  },
+  {
+    "id": "couple-8",
+    "coupleNumber": 8,
+    "name": "Dorrell (Coach Ras) Howard & Spiritual Howard",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Spiritual",
+      "lastName": "Howard"
+    },
+    "male": {
+      "firstName": "Dorrell (Coach Ras)",
+      "lastName": "Howard"
+    }
+  },
+  {
+    "id": "couple-9",
+    "coupleNumber": 9,
+    "name": "Herb Ihenacho & Tonya London",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Tonya",
+      "lastName": "London"
+    },
+    "male": {
+      "firstName": "Herb",
+      "lastName": "Ihenacho"
+    }
+  },
+  {
+    "id": "couple-10",
+    "coupleNumber": 10,
+    "name": "Jesse McDaniels & Christine Chavez",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Christine",
+      "lastName": "Chavez"
+    },
+    "male": {
+      "firstName": "Jesse",
+      "lastName": "McDaniels"
+    }
+  },
+  {
+    "id": "couple-11",
+    "coupleNumber": 11,
+    "name": "Jonathan McDougald & Shani Johnson",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Shani",
+      "lastName": "Johnson"
+    },
+    "male": {
+      "firstName": "Jonathan",
+      "lastName": "McDougald"
+    }
+  },
+  {
+    "id": "couple-12",
+    "coupleNumber": 12,
+    "name": "Scorpio & Coco Ramsey",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Coco",
+      "lastName": "Ramsey"
+    },
+    "male": {
+      "firstName": "Scorpio",
+      "lastName": ""
+    }
+  },
+  {
+    "id": "couple-13",
+    "coupleNumber": 13,
+    "name": "Barack Swanigan & Shonette (Butterfly) Holland (TBD)",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Shonette (Butterfly) Holland",
+      "lastName": "(TBD)"
+    },
+    "male": {
+      "firstName": "Barack",
+      "lastName": "Swanigan"
+    }
+  },
+  {
+    "id": "couple-14",
+    "coupleNumber": 14,
+    "name": "Jared Taylor & Tianna Ross Damon",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Tianna Ross",
+      "lastName": "Damon"
+    },
+    "male": {
+      "firstName": "Jared",
+      "lastName": "Taylor"
+    }
+  },
+  {
+    "id": "couple-15",
+    "coupleNumber": 15,
+    "name": "Auntrell (Steppin Trell) White & Ericka Jones",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Ericka",
+      "lastName": "Jones"
+    },
+    "male": {
+      "firstName": "Auntrell (Steppin Trell)",
+      "lastName": "White"
+    }
+  },
+  {
+    "id": "couple-16",
+    "coupleNumber": 16,
+    "name": "Kirk White & Bridgett White",
+    "categoryId": "OLD_SCHOOL",
+    "female": {
+      "firstName": "Bridgett",
+      "lastName": "White"
+    },
+    "male": {
+      "firstName": "Kirk",
+      "lastName": "White"
+    }
+  }
+]

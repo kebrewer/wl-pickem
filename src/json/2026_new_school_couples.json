@@ -1,0 +1,198 @@
+[
+  {
+    "id": "couple-1",
+    "coupleNumber": 1,
+    "name": "Mark Alexander & Oni Faulkner",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Oni",
+      "lastName": "Faulkner"
+    },
+    "male": {
+      "firstName": "Mark",
+      "lastName": "Alexander"
+    }
+  },
+  {
+    "id": "couple-2",
+    "coupleNumber": 2,
+    "name": "Dre Bell & Jamie Anderson",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Jamie",
+      "lastName": "Anderson"
+    },
+    "male": {
+      "firstName": "Dre",
+      "lastName": "Bell"
+    }
+  },
+  {
+    "id": "couple-3",
+    "coupleNumber": 3,
+    "name": "Arnel (Tech) Cross & Amanda Anderson",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Amanda",
+      "lastName": "Anderson"
+    },
+    "male": {
+      "firstName": "Arnel (Tech)",
+      "lastName": "Cross"
+    }
+  },
+  {
+    "id": "couple-4",
+    "coupleNumber": 4,
+    "name": "Frederic (Freeze) Dowd & Slyvella Davis",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Slyvella",
+      "lastName": "Davis"
+    },
+    "male": {
+      "firstName": "Frederic (Freeze)",
+      "lastName": "Dowd"
+    }
+  },
+  {
+    "id": "couple-5",
+    "coupleNumber": 5,
+    "name": "Allen Downer & Genevieve Barber",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Genevieve",
+      "lastName": "Barber"
+    },
+    "male": {
+      "firstName": "Allen",
+      "lastName": "Downer"
+    }
+  },
+  {
+    "id": "couple-6",
+    "coupleNumber": 6,
+    "name": "Feo Duncan & Brandie Wright",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Brandie",
+      "lastName": "Wright"
+    },
+    "male": {
+      "firstName": "Feo",
+      "lastName": "Duncan"
+    }
+  },
+  {
+    "id": "couple-7",
+    "coupleNumber": 7,
+    "name": "Malik Evans & Elissa Hall",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Elissa",
+      "lastName": "Hall"
+    },
+    "male": {
+      "firstName": "Malik",
+      "lastName": "Evans"
+    }
+  },
+  {
+    "id": "couple-8",
+    "coupleNumber": 8,
+    "name": "Armando (Doe) Gamble & Theresa Gee",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Theresa",
+      "lastName": "Gee"
+    },
+    "male": {
+      "firstName": "Armando (Doe)",
+      "lastName": "Gamble"
+    }
+  },
+  {
+    "id": "couple-9",
+    "coupleNumber": 9,
+    "name": "Tori Jones & Elena Elmore",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Elena",
+      "lastName": "Elmore"
+    },
+    "male": {
+      "firstName": "Tori",
+      "lastName": "Jones"
+    }
+  },
+  {
+    "id": "couple-10",
+    "coupleNumber": 10,
+    "name": "Le Lias & Darling Bains",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Darling",
+      "lastName": "Bains"
+    },
+    "male": {
+      "firstName": "Le",
+      "lastName": "Lias"
+    }
+  },
+  {
+    "id": "couple-11",
+    "coupleNumber": 11,
+    "name": "JR Riddle & Jennie Maddox",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Jennie",
+      "lastName": "Maddox"
+    },
+    "male": {
+      "firstName": "JR",
+      "lastName": "Riddle"
+    }
+  },
+  {
+    "id": "couple-12",
+    "coupleNumber": 12,
+    "name": "Dawud Shareef & Jordan Muhammed",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Jordan",
+      "lastName": "Muhammed"
+    },
+    "male": {
+      "firstName": "Dawud",
+      "lastName": "Shareef"
+    }
+  },
+  {
+    "id": "couple-13",
+    "coupleNumber": 13,
+    "name": "Barack Swanigan & Toni Smiley (TBD)",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Toni Smiley",
+      "lastName": "(TBD)"
+    },
+    "male": {
+      "firstName": "Barack",
+      "lastName": "Swanigan"
+    }
+  },
+  {
+    "id": "couple-14",
+    "coupleNumber": 14,
+    "name": "Trey (Nikee) Young & Sandi Abril",
+    "categoryId": "NEW_SCHOOL",
+    "female": {
+      "firstName": "Sandi",
+      "lastName": "Abril"
+    },
+    "male": {
+      "firstName": "Trey (Nikee)",
+      "lastName": "Young"
+    }
+  }
+]

@@ -1,0 +1,392 @@
+{
+    "beginners": [
+
+      {
+        "coupleId": "B06",
+        "female": { "firstName": "Charlsie", "lastName": "Hylicks" },
+        "male": { "firstName": "Tori", "lastName": "Robinson" }
+      },
+      {
+        "coupleId": "B07",
+        "female": { "firstName": "Taylar", "lastName": "Raymond" },
+        "male": { "firstName": "Kevin", "lastName": "Dockery" }
+      },
+      {
+        "coupleId": "B08",
+        "female": { "firstName": "Sharon", "lastName": "Bolden" },
+        "male": { "firstName": "Bobby", "lastName": "Taylor" }
+      },
+      {
+        "coupleId": "B09",
+        "female": { "firstName": "Tabitha", "lastName": "Hicks" },
+        "male": { "firstName": "Jamie", "lastName": "Graham" }
+      },
+      {
+        "coupleId": "B10",
+        "female": { "firstName": "Juanita", "lastName": "Ceaser" },
+        "male": { "firstName": "James", "lastName": "Birganns" }
+      },
+      {
+        "coupleId": "B11",
+        "female": { "firstName": "Margrette", "lastName": "Fisher" },
+        "male": { "firstName": "Andre", "lastName": "Blackwell" }
+      },
+      {
+        "coupleId": "B12",
+        "female": { "firstName": "Danielle", "lastName": "Woodard" },
+        "male": { "firstName": "Ed", "lastName": "Donaldsonn" }
+      },
+      {
+        "coupleId": "B13",
+        "female": { "firstName": "Ann", "lastName": "Hunter" },
+        "male": { "firstName": "Drew", "lastName": "Alexander" }
+      },
+      {
+        "coupleId": "B14",
+        "female": { "firstName": "Sherry", "lastName": "Gorder" },
+        "male": { "firstName": "Mike", "lastName": "Bush" }
+      },
+      {
+        "coupleId": "B15",
+        "female": { "firstName": "Chemesha", "lastName": "Grant" },
+        "male": { "firstName": "Mark", "lastName": "Alexander" }
+      },
+      {
+        "coupleId": "B16",
+        "female": { "firstName": "Candace", "lastName": "Haydenn" },
+        "male": { "firstName": "Stuart", "lastName": "Clark" }
+      },
+      {
+        "coupleId": "B17",
+        "female": { "firstName": "Danitra", "lastName": "Gardner" },
+        "male": { "firstName": "Maurice", "lastName": "Thomas" }
+      },
+      {
+        "coupleId": "B18",
+        "female": { "firstName": "Erica", "lastName": "Little" },
+        "male": { "firstName": "Darnell", "lastName": "Smith" }
+      },
+      {
+        "coupleId": "B19",
+        "female": { "firstName": "Nicole", "lastName": "Wilburn" },
+        "male": { "firstName": "Selwyne", "lastName": "Hodges" }
+      },
+      {
+        "coupleId": "B20",
+        "female": { "firstName": "Audrey", "lastName": "Freeman" },
+        "male": { "firstName": "Reice", "lastName": "Turner" }
+      },
+      {
+        "coupleId": "B21",
+        "female": { "firstName": "Mariska", "lastName": "Lee" },
+        "male": { "firstName": "Quies", "lastName": "Martin" }
+      }
+    ],
+  
+    "new_school": [
+      {
+        "coupleId": "A01",
+        "female": { "firstName": "Sophia", "lastName": "Martinez" },
+        "male": { "firstName": "James", "lastName": "Chen" }
+      },
+      {
+        "coupleId": "A02",
+        "female": { "firstName": "Emma", "lastName": "Rodriguez" },
+        "male": { "firstName": "Michael", "lastName": "Thompson" }
+      },
+      {
+        "coupleId": "A03",
+        "female": { "firstName": "Olivia", "lastName": "Johnson" },
+        "male": { "firstName": "David", "lastName": "Williams" }
+      },
+      {
+        "coupleId": "A04",
+        "female": { "firstName": "Ava", "lastName": "Brown" },
+        "male": { "firstName": "Daniel", "lastName": "Garcia" }
+      },
+      {
+        "coupleId": "A05",
+        "female": { "firstName": "Isabella", "lastName": "Davis" },
+        "male": { "firstName": "Matthew", "lastName": "Miller" }
+      },
+      {
+        "coupleId": "B01",
+        "female": { "firstName": "Mia", "lastName": "Wilson" },
+        "male": { "firstName": "Christopher", "lastName": "Moore" }
+      },
+      {
+        "coupleId": "B02",
+        "female": { "firstName": "Charlotte", "lastName": "Taylor" },
+        "male": { "firstName": "Anthony", "lastName": "Anderson" }
+      },
+      {
+        "coupleId": "B03",
+        "female": { "firstName": "Amelia", "lastName": "Thomas" },
+        "male": { "firstName": "Joshua", "lastName": "Jackson" }
+      },
+      {
+        "coupleId": "B04",
+        "female": { "firstName": "Harper", "lastName": "White" },
+        "male": { "firstName": "Andrew", "lastName": "Harris" }
+      },
+      {
+        "coupleId": "B05",
+        "female": { "firstName": "Evelyn", "lastName": "Martin" },
+        "male": { "firstName": "Ryan", "lastName": "Lee" }
+      },
+      {
+        "coupleId": "C01",
+        "female": { "firstName": "Abigail", "lastName": "Lewis" },
+        "male": { "firstName": "Brandon", "lastName": "Walker" }
+      },
+      {
+        "coupleId": "C02",
+        "female": { "firstName": "Emily", "lastName": "Hall" },
+        "male": { "firstName": "Kevin", "lastName": "Young" }
+      },
+      {
+        "coupleId": "C03",
+        "female": { "firstName": "Elizabeth", "lastName": "Allen" },
+        "male": { "firstName": "Tyler", "lastName": "King" }
+      },
+      {
+        "coupleId": "C04",
+        "female": { "firstName": "Sofia", "lastName": "Wright" },
+        "male": { "firstName": "Jason", "lastName": "Scott" }
+      },
+      {
+        "coupleId": "C05",
+        "female": { "firstName": "Avery", "lastName": "Green" },
+        "male": { "firstName": "Justin", "lastName": "Adams" }
+      },
+      {
+        "coupleId": "D01",
+        "female": { "firstName": "Ella", "lastName": "Baker" },
+        "male": { "firstName": "Nathan", "lastName": "Nelson" }
+      },
+      {
+        "coupleId": "D02",
+        "female": { "firstName": "Scarlett", "lastName": "Carter" },
+        "male": { "firstName": "Aaron", "lastName": "Hill" }
+      },
+      {
+        "coupleId": "D03",
+        "female": { "firstName": "Grace", "lastName": "Mitchell" },
+        "male": { "firstName": "Eric", "lastName": "Roberts" }
+      },
+      {
+        "coupleId": "D04",
+        "female": { "firstName": "Chloe", "lastName": "Perez" },
+        "male": { "firstName": "Samuel", "lastName": "Turner" }
+      },
+      {
+        "coupleId": "D05",
+        "female": { "firstName": "Victoria", "lastName": "Phillips" },
+        "male": { "firstName": "Benjamin", "lastName": "Campbell" }
+      },
+      {
+        "coupleId": "E01",
+        "female": { "firstName": "Madison", "lastName": "Evans" },
+        "male": { "firstName": "Jacob", "lastName": "Parker" }
+      },
+      {
+        "coupleId": "E02",
+        "female": { "firstName": "Luna", "lastName": "Edwards" },
+        "male": { "firstName": "Alexander", "lastName": "Collins" }
+      },
+      {
+        "coupleId": "E03",
+        "female": { "firstName": "Aria", "lastName": "Stewart" },
+        "male": { "firstName": "William", "lastName": "Morris" }
+      },
+      {
+        "coupleId": "E04",
+        "female": { "firstName": "Layla", "lastName": "Sanchez" },
+        "male": { "firstName": "Ethan", "lastName": "Rogers" }
+      },
+      {
+        "coupleId": "E05",
+        "female": { "firstName": "Zoe", "lastName": "Reed" },
+        "male": { "firstName": "Noah", "lastName": "Cook" }
+      }
+    ],
+  
+    "old_school": [
+      {
+        "coupleId": "F01",
+        "female": { "firstName": "Lily", "lastName": "Morgan" },
+        "male": { "firstName": "Liam", "lastName": "Bell" }
+      },
+      {
+        "coupleId": "F02",
+        "female": { "firstName": "Hannah", "lastName": "Murphy" },
+        "male": { "firstName": "Mason", "lastName": "Bailey" }
+      },
+      {
+        "coupleId": "F03",
+        "female": { "firstName": "Addison", "lastName": "Rivera" },
+        "male": { "firstName": "Logan", "lastName": "Cooper" }
+      },
+      {
+        "coupleId": "F04",
+        "female": { "firstName": "Ellie", "lastName": "Richardson" },
+        "male": { "firstName": "Lucas", "lastName": "Cox" }
+      },
+      {
+        "coupleId": "F05",
+        "female": { "firstName": "Nora", "lastName": "Howard" },
+        "male": { "firstName": "Carter", "lastName": "Ward" }
+      },
+      {
+        "coupleId": "G01",
+        "female": { "firstName": "Camila", "lastName": "Torres" },
+        "male": { "firstName": "Owen", "lastName": "Peterson" }
+      },
+      {
+        "coupleId": "G02",
+        "female": { "firstName": "Penelope", "lastName": "Gray" },
+        "male": { "firstName": "Dylan", "lastName": "Brooks" }
+      },
+      {
+        "coupleId": "G03",
+        "female": { "firstName": "Riley", "lastName": "Ramirez" },
+        "male": { "firstName": "Wyatt", "lastName": "James" }
+      },
+      {
+        "coupleId": "G04",
+        "female": { "firstName": "Zoey", "lastName": "Watson" },
+        "male": { "firstName": "Jack", "lastName": "Kelly" }
+      },
+      {
+        "coupleId": "G05",
+        "female": { "firstName": "Natalie", "lastName": "Sanders" },
+        "male": { "firstName": "Raymond", "lastName": "Price" }
+      },
+      {
+        "coupleId": "H01",
+        "female": { "firstName": "Audrey", "lastName": "Bennett" },
+        "male": { "firstName": "Sebastian", "lastName": "Wood" }
+      },
+      {
+        "coupleId": "H02",
+        "female": { "firstName": "Savannah", "lastName": "Barnes" },
+        "male": { "firstName": "Henry", "lastName": "Ross" }
+      },
+      {
+        "coupleId": "H03",
+        "female": { "firstName": "Brooklyn", "lastName": "Henderson" },
+        "male": { "firstName": "Caleb", "lastName": "Coleman" }
+      },
+      {
+        "coupleId": "H04",
+        "female": { "firstName": "Bella", "lastName": "Jenkins" },
+        "male": { "firstName": "Isaac", "lastName": "Perry" }
+      },
+      {
+        "coupleId": "H05",
+        "female": { "firstName": "Claire", "lastName": "Powell" },
+        "male": { "firstName": "Gabriel", "lastName": "Long" }
+      },
+      {
+        "coupleId": "I01",
+        "female": { "firstName": "Skylar", "lastName": "Patterson" },
+        "male": { "firstName": "Julian", "lastName": "Hughes" }
+      },
+      {
+        "coupleId": "I02",
+        "female": { "firstName": "Lucy", "lastName": "Flores" },
+        "male": { "firstName": "John", "lastName": "Washington" }
+      },
+      {
+        "coupleId": "I03",
+        "female": { "firstName": "Paisley", "lastName": "Butler" },
+        "male": { "firstName": "Luke", "lastName": "Simmons" }
+      },
+      {
+        "coupleId": "I04",
+        "female": { "firstName": "Anna", "lastName": "Foster" },
+        "male": { "firstName": "Hunter", "lastName": "Bryant" }
+      },
+      {
+        "coupleId": "I05",
+        "female": { "firstName": "Caroline", "lastName": "Griffin" },
+        "male": { "firstName": "Connor", "lastName": "Russell" }
+      }
+    ],
+  
+    "trios": [
+      {
+        "coupleId": "K05",
+        "female": { "firstName": "Leah", "lastName": "Castillo" },
+        "male": { "firstName": "Asher", "lastName": "Stone" }
+      },
+      {
+        "coupleId": "L01",
+        "female": { "firstName": "Maya", "lastName": "Pierce" },
+        "male": { "firstName": "Grayson", "lastName": "Boyd" }
+      },
+      {
+        "coupleId": "L02",
+        "female": { "firstName": "Stella", "lastName": "Freeman" },
+        "male": { "firstName": "Landon", "lastName": "Palmer" }
+      },
+      {
+        "coupleId": "L03",
+        "female": { "firstName": "Elena", "lastName": "Simpson" },
+        "male": { "firstName": "Miles", "lastName": "Hunt" }
+      },
+      {
+        "coupleId": "L04",
+        "female": { "firstName": "Hazel", "lastName": "Chapman" },
+        "male": { "firstName": "Dominic", "lastName": "Black" }
+      }
+    ],
+  
+    "walkers": [
+      {
+        "coupleId": "J01",
+        "female": { "firstName": "Violet", "lastName": "Alexander" },
+        "male": { "firstName": "Eli", "lastName": "Diaz" }
+      },
+      {
+        "coupleId": "J02",
+        "female": { "firstName": "Genesis", "lastName": "Hayes" },
+        "male": { "firstName": "Thomas", "lastName": "Myers" }
+      },
+      {
+        "coupleId": "J03",
+        "female": { "firstName": "Kennedy", "lastName": "Ford" },
+        "male": { "firstName": "Charles", "lastName": "Hamilton" }
+      },
+      {
+        "coupleId": "J04",
+        "female": { "firstName": "Sadie", "lastName": "Graham" },
+        "male": { "firstName": "Jaxon", "lastName": "Sullivan" }
+      },
+      {
+        "coupleId": "J05",
+        "female": { "firstName": "Gabriella", "lastName": "Wallace" },
+        "male": { "firstName": "Lincoln", "lastName": "Woods" }
+      },
+      {
+        "coupleId": "K01",
+        "female": { "firstName": "Allison", "lastName": "Cole" },
+        "male": { "firstName": "Jayden", "lastName": "West" }
+      },
+      {
+        "coupleId": "K02",
+        "female": { "firstName": "Madelyn", "lastName": "Jordan" },
+        "male": { "firstName": "Adrian", "lastName": "Reynolds" }
+      },
+      {
+        "coupleId": "K03",
+        "female": { "firstName": "Aurora", "lastName": "Fisher" },
+        "male": { "firstName": "Jeremiah", "lastName": "Ellis" }
+      },
+      {
+        "coupleId": "K04",
+        "female": { "firstName": "Samantha", "lastName": "Gibson" },
+        "male": { "firstName": "Ezra", "lastName": "Harvey" }
+      }
+    ]
+  }

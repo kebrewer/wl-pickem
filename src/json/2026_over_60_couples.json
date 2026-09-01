@@ -1,0 +1,72 @@
+[
+  {
+    "id": "couple-1",
+    "coupleNumber": 1,
+    "name": "DA Peaches Anderson & Cheri Lilly-Daniel",
+    "categoryId": "OVER_60",
+    "female": {
+      "firstName": "Cheri",
+      "lastName": "Lilly-Daniel"
+    },
+    "male": {
+      "firstName": "DA Peaches",
+      "lastName": "Anderson"
+    }
+  },
+  {
+    "id": "couple-2",
+    "coupleNumber": 2,
+    "name": "Rodney Clark & Tracey Collins",
+    "categoryId": "OVER_60",
+    "female": {
+      "firstName": "Tracey",
+      "lastName": "Collins"
+    },
+    "male": {
+      "firstName": "Rodney",
+      "lastName": "Clark"
+    }
+  },
+  {
+    "id": "couple-3",
+    "coupleNumber": 3,
+    "name": "Tim McGary & Toni Cleaves",
+    "categoryId": "OVER_60",
+    "female": {
+      "firstName": "Toni",
+      "lastName": "Cleaves"
+    },
+    "male": {
+      "firstName": "Tim",
+      "lastName": "McGary"
+    }
+  },
+  {
+    "id": "couple-4",
+    "coupleNumber": 4,
+    "name": "Jerry McNair & Chessie Smith",
+    "categoryId": "OVER_60",
+    "female": {
+      "firstName": "Chessie",
+      "lastName": "Smith"
+    },
+    "male": {
+      "firstName": "Jerry",
+      "lastName": "McNair"
+    }
+  },
+  {
+    "id": "couple-5",
+    "coupleNumber": 5,
+    "name": "Muhammed & Cheryl Jackson",
+    "categoryId": "OVER_60",
+    "female": {
+      "firstName": "Cheryl",
+      "lastName": "Jackson"
+    },
+    "male": {
+      "firstName": "Muhammed",
+      "lastName": ""
+    }
+  }
+]

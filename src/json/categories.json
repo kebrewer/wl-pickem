@@ -1,0 +1,36 @@
+[{
+  "id": "OLD_SCHOOL",
+  "name": "Old School",
+  "displayName": "Old",
+  "displayOrder": 3,
+  "votingOpen": true
+},
+{
+  "id": "SIXTY_PLUS",
+  "name": "60 Plus",
+  "displayName": "60+",
+  "displayOrder": 4,
+  "votingOpen": true
+},
+{
+  "id": "BEGINNERS",
+  "name": "Beginners",
+  "displayName": "Begin",
+  "displayOrder": 1,
+  "votingOpen": true
+}, 
+{
+  "id": "NEW_SCHOOL",
+  "name": "New School",
+  "displayName": "New",
+  "displayOrder": 2,
+  "votingOpen": true
+}, 
+{
+    "id": "WALKERS",
+    "name": "Walkers",
+    "displayName": "Walkers",
+    "displayOrder": 5,
+    "votingOpen": true
+}
+]

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="bumblebee">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wlscpickem</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.8.2/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="preload"
+      href="./src/fonts/subset-Heaters.woff"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+  
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="src/css/index.css">
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+
+  </head>
+  <body>
+    <div id="herocontent" class="hideelement">
+      <div class="hero min-h-screen" style="background-image: url(./src/images/ChicagoSteppers_CKL_LR017.webp);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <div class="year">2026</div>
+            <h1 class="herotitle">Worlds Largest Pickem Pool</h1>
+            <p class="mb-5">
+              Come join us in our fantasy pickem pool for the Worlds Largest and
+              have a chance to win $500.
+            </p>
+            <button class="btn btn-primary">
+              <a href="#landing" data-link>Started</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="app" class="hideelement">
+      <header id="mainheader">
+        <div class="topheader"><div class="headerTitle">Who You Got</div></div>
+        <div class="navbar bg-base-100">
+          <div class="flex-1">
+            <a href="/" class="btn btn-ghost normal-case text-xl">WL Pickem Pool</a>
+          </div>
+          <div class="flex-none">
+            <ul class="menu menu-horizontal px-1">
+              <li>
+                <a onclick="my_modal_3.showModal()">How to win the $500?</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      <div id="maincontent"></div>
+      <footer id="footer" class="footer p-10 bg-neutral text-neutral-content">
+        <nav>
+          <header class="footer-title">Sponsers</header>
+          <a class="link link-hover">Steppin and Glampin</a>
+          <a class="link link-hover">We Dance BC We Love this!</a>
+          <a class="link link-hover">Hertitage Ball</a>
+          <a class="link link-hover">Worlds Largest Steppin Competition</a>
+        </nav>
+        <nav>
+          <header class="footer-title">Company</header>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+        </nav>
+        <nav>
+          <header class="footer-title">Legal</header>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <nav>
+          <header class="footer-title">Picks</header>
+          <a class="link link-hover">Click Here to review your picks</a>
+        </nav>
+      </footer>
+    </div>
+    <!--end of app-->
+
+    <dialog id="my_modal_3" class="modal">
+      <div class="modal-box">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+        </form>
+
+        <p class="py-4">Press ESC key or click on ✕ button to close</p>
+        <div class="contentwrapper">
+            <pickem-rules></pickem-rules>
+        </div>
+      </div>
+    </dialog>
+  </body>
+  <script defer type="module" src="./src/js/hash-router.js"></script>
+  <script type="module" src="./src/js/main.js"></script>
+ 
+</html>

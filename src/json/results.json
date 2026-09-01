@@ -1,0 +1,30 @@
+{
+    "results": {
+        "beginners": {
+          "1st": "B01",
+          "2nd": "B02",
+          "3rd": null
+        },
+        "new_school": {
+          "1st": "NS02",
+          "2nd": "NS01",
+          "3rd": null
+        },
+        "old_school": {
+          "1st": "OS01",
+          "2nd": null,
+          "3rd": null
+        },
+        "trios": {
+          "1st": "T01",
+          "2nd": null,
+          "3rd": null
+        },
+        "walkers": {
+          "1st": "W01",
+          "2nd": null,
+          "3rd": null
+        }
+      }
+}
+

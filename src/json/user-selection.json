@@ -1,0 +1,8 @@
+{
+    "beginners": { "1st": "B12", "2nd": "B08", "3rd": "B21" },
+    "new_school": { "1st": "NS04", "2nd": "NS11", "3rd": "NS02" },
+    "old_school": { "1st": "OS07", "2nd": "OS01", "3rd": "OS12" },
+    "trios": { "1st": "T03", "2nd": "T09", "3rd": "T01" },
+    "walkers": { "1st": "W05", "2nd": "W02", "3rd": "W11" }
+  }
+  

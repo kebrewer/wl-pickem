@@ -1,0 +1,240 @@
+[
+  {
+    "id": "couple-1",
+    "coupleNumber": 1,
+    "name": "Michael (Mike B) Bennett & Bridget Piggüe",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Bridget",
+      "lastName": "Piggüe"
+    },
+    "male": {
+      "firstName": "Michael (Mike B)",
+      "lastName": "Bennett"
+    }
+  },
+  {
+    "id": "couple-2",
+    "coupleNumber": 2,
+    "name": "Ron Brown & Key Day",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Key",
+      "lastName": "Day"
+    },
+    "male": {
+      "firstName": "Ron",
+      "lastName": "Brown"
+    }
+  },
+  {
+    "id": "couple-3",
+    "coupleNumber": 3,
+    "name": "Rodney Clark & Tracey Collins",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Tracey",
+      "lastName": "Collins"
+    },
+    "male": {
+      "firstName": "Rodney",
+      "lastName": "Clark"
+    }
+  },
+  {
+    "id": "couple-4",
+    "coupleNumber": 4,
+    "name": "Reggie Clayton & Dori (GG) Lee",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Dori (GG)",
+      "lastName": "Lee"
+    },
+    "male": {
+      "firstName": "Reggie",
+      "lastName": "Clayton"
+    }
+  },
+  {
+    "id": "couple-5",
+    "coupleNumber": 5,
+    "name": "Frederic (Freeze) Dowd & Slyvella Davis",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Slyvella",
+      "lastName": "Davis"
+    },
+    "male": {
+      "firstName": "Frederic (Freeze)",
+      "lastName": "Dowd"
+    }
+  },
+  {
+    "id": "couple-6",
+    "coupleNumber": 6,
+    "name": "Allen Downer & Genevieve Barber",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Genevieve",
+      "lastName": "Barber"
+    },
+    "male": {
+      "firstName": "Allen",
+      "lastName": "Downer"
+    }
+  },
+  {
+    "id": "couple-7",
+    "coupleNumber": 7,
+    "name": "Feo Duncan & Brandie Wright",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Brandie",
+      "lastName": "Wright"
+    },
+    "male": {
+      "firstName": "Feo",
+      "lastName": "Duncan"
+    }
+  },
+  {
+    "id": "couple-8",
+    "coupleNumber": 8,
+    "name": "Armando Gamble & Oni Faulkner",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Oni",
+      "lastName": "Faulkner"
+    },
+    "male": {
+      "firstName": "Armando",
+      "lastName": "Gamble"
+    }
+  },
+  {
+    "id": "couple-9",
+    "coupleNumber": 9,
+    "name": "Bobby Green & Wanda Scales",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Wanda",
+      "lastName": "Scales"
+    },
+    "male": {
+      "firstName": "Bobby",
+      "lastName": "Green"
+    }
+  },
+  {
+    "id": "couple-10",
+    "coupleNumber": 10,
+    "name": "Dorrell (Coach Ras) Howard & Spiritual Howard",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Spiritual",
+      "lastName": "Howard"
+    },
+    "male": {
+      "firstName": "Dorrell (Coach Ras)",
+      "lastName": "Howard"
+    }
+  },
+  {
+    "id": "couple-11",
+    "coupleNumber": 11,
+    "name": "Josh McCloudy & Shelly Holder",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Shelly",
+      "lastName": "Holder"
+    },
+    "male": {
+      "firstName": "Josh",
+      "lastName": "McCloudy"
+    }
+  },
+  {
+    "id": "couple-12",
+    "coupleNumber": 12,
+    "name": "Jesse McDaniels & Christine Chavez",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Christine",
+      "lastName": "Chavez"
+    },
+    "male": {
+      "firstName": "Jesse",
+      "lastName": "McDaniels"
+    }
+  },
+  {
+    "id": "couple-13",
+    "coupleNumber": 13,
+    "name": "Jonathan McDougald & Shani Johnson",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Shani",
+      "lastName": "Johnson"
+    },
+    "male": {
+      "firstName": "Jonathan",
+      "lastName": "McDougald"
+    }
+  },
+  {
+    "id": "couple-14",
+    "coupleNumber": 14,
+    "name": "Muhammad & Debra Goode",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Debra",
+      "lastName": "Goode"
+    },
+    "male": {
+      "firstName": "Muhammad",
+      "lastName": ""
+    }
+  },
+  {
+    "id": "couple-15",
+    "coupleNumber": 15,
+    "name": "Danny Stone & Tasha Holmes",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Tasha",
+      "lastName": "Holmes"
+    },
+    "male": {
+      "firstName": "Danny",
+      "lastName": "Stone"
+    }
+  },
+  {
+    "id": "couple-16",
+    "coupleNumber": 16,
+    "name": "Barack Swanigan & Brittnea Miller",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Brittnea",
+      "lastName": "Miller"
+    },
+    "male": {
+      "firstName": "Barack",
+      "lastName": "Swanigan"
+    }
+  },
+  {
+    "id": "couple-17",
+    "coupleNumber": 17,
+    "name": "Trey (Nikee) Young & Sandi Abril",
+    "categoryId": "WALKERS",
+    "female": {
+      "firstName": "Sandi",
+      "lastName": "Abril"
+    },
+    "male": {
+      "firstName": "Trey (Nikee)",
+      "lastName": "Young"
+    }
+  }
+]

@@ -1,0 +1,203 @@
+{
+    "categories": [
+        {
+            "category_id": 1,
+            "title": "Beginners",
+            "couples": [
+                {
+                    "couple_id": 1,
+                    "partner1_first_name": "Vicki",
+                    "partner1_last_name": "Henning",
+                    "partner2_first_name": "Shawn",
+                    "partner2_last_name": "Bandy"
+                },
+                {
+                    "couple_id": 2,
+                    "partner1_first_name": "Ed",
+                    "partner1_last_name": "Donaldson",
+                    "partner2_first_name": "Shawn",
+                    "partner2_last_name": "Bandy"
+                }
+            ]
+        },
+        {
+            "category_id": 2,
+            "title": "New School",
+            "couples": [
+                {
+                    "couple_id": 1,
+                    "partner1_first_name": "Vicki",
+                    "partner1_last_name": "Henning",
+                    "partner2_first_name": "Shawn",
+                    "partner2_last_name": "Bandy"
+                },
+                {
+                    "couple_id": 2,
+                    "partner1_first_name": "Ed",
+                    "partner1_last_name": "Donaldson",
+                    "partner2_first_name": "Shawn",
+                    "partner2_last_name": "Bandy"
+                }
+            ]
+        },
+        {
+            "category_id": 3,
+            "title": "Old School",
+            "couples": [
+                {
+                    "couple_id": 1,
+                    "partner1_first_name": "Vicki",
+                    "partner1_last_name": "Henning",
+                    "partner2_first_name": "Shawn",
+                    "partner2_last_name": "Bandy"
+                },
+                {
+                    "couple_id": 2,
+                    "partner1_first_name": "Ed",
+                    "partner1_last_name": "Donaldson",
+                    "partner2_first_name": "Shawn",
+                    "partner2_last_name": "Bandy"
+                }
+            ]
+        },
+        {
+            "category_id": 4,
+            "title": "Trios",
+            "couples": [
+                {
+                    "couple_id": 1,
+                    "partner1_first_name": "Vicki",
+                    "partner1_last_name": "Henning",
+                    "partner2_first_name": "Shawn",
+                    "partner2_last_name": "Bandy"
+                },
+                {
+                    "couple_id": 2,
+                    "partner1_first_name": "Ed",
+                    "partner1_last_name": "Donaldson",
+                    "partner2_first_name": "Shawn",
+                    "partner2_last_name": "Bandy"
+                }
+            ]
+        },
+        {
+            "category_id": 5,
+            "title": "Walkers",
+            "couples": [
+                {
+                    "couple_id": 1,
+                    "partner1_first_name": "Vicki",
+                    "partner1_last_name": "Henning",
+                    "partner2_first_name": "Shawn",
+                    "partner2_last_name": "Bandy"
+                },
+                {
+                    "couple_id": 2,
+                    "partner1_first_name": "Ed",
+                    "partner1_last_name": "Donaldson",
+                    "partner2_first_name": "Shawn",
+                    "partner2_last_name": "Bandy"
+                }
+            ]
+        }
+    ],
+    "entrants": [
+        {
+            "entrant_id": 1,
+            "first_name": "Kevin",
+            "last_name": "Brewer",
+            "email_addres": "test@gmail.com",
+            "phone_number": "7733388888",
+            "creation_time": "12:00:00",
+            "creation_date": "12:00:00",
+            "category_winner": {
+                "beginners" : {
+                    "1" : "couple_1",
+                    "2": "couple_18",
+                    "3": "couple_4"
+                },
+                "newschool" : {
+                    "1" : "couple_1",
+                    "2": "couple_18",
+                    "3": "couple_4"
+                },
+                "oldschool" : {
+                    "1" : "couple_1",
+                    "2": "couple_18",
+                    "3": "couple_4"
+                },
+                "trios" : {
+                    "1" : "couple_1",
+                    "2": "couple_18",
+                    "3": "couple_4"
+                },
+                "walkers" : {
+                    "1" : "couple_1",
+                    "2": "couple_18",
+                    "3": "couple_4"
+                }
+            },
+            "tie_breaker" : 32
+        },
+        {
+            "entrant_id": 1,
+            "first_name": "Kevin",
+            "last_name": "Brewer",
+            "email_addres": "test@gmail.com",
+            "phone_number": "7733388888",
+            "creation_time": "12:00:00",
+            "creation_date": "12:00:00",
+            "category_winner": {
+                "beginners" : {
+                    "1" : "couple_1",
+                    "2": "couple_18",
+                    "3": "couple_4"
+                },
+                "newschool" : {
+                    "1" : "couple_1",
+                    "2": "couple_18",
+                    "3": "couple_4"
+                },
+                "oldschool" : {
+                    "1" : "couple_1",
+                    "2": "couple_18",
+                    "3": "couple_4"
+                },
+                "trios" : {
+                    "1" : "couple_1",
+                    "2": "couple_18",
+                    "3": "couple_4"
+                },
+                "walkers" : {
+                    "1" : "couple_1",
+                    "2": "couple_18",
+                    "3": "couple_4"
+                }
+            },
+            "confirmation_code": "40952EA7",
+            "tie_breaker" : 32
+        }
+    
+        ],
+    "results": {
+        "first_place": {
+            "entrant_first_name": "Kevin",
+            "entrant_last_name": "Brewer",
+            "entrant_id": 1,
+            "score": 15
+        },
+        "second_place": {
+            "entrant_first_name": "Donald",
+            "entrant_last_name": "Smith",
+            "entrant_id": 2,
+            "score": 15
+        }, 
+        "third_place": {
+            "entrant_first_name": "Robert",
+            "entrant_last_name": "Johnson",
+            "entrant_id": 3,
+            "score": 15
+        }
+
+    }
+}
