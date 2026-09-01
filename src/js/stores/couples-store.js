@@ -1,3 +1,5 @@
+import couplesData from "../../json/couples.json";
+
 const SESSION_KEY = "couples_data";
 
 let memoryCache = null;
@@ -26,14 +28,8 @@ export async function getCouplesData() {
     return inFlightPromise;
   }
 
-  // 4️⃣ Fetch from API and store result
-  inFlightPromise = fetch("/src/json/couples.json")
-    .then(res => {
-      if (!res.ok) {
-        throw new Error("API fetch failed");
-      }
-      return res.json();
-    })
+  // 4️⃣ Load the build-bundled data and store the result
+  inFlightPromise = Promise.resolve(couplesData)
     .then(data => {
       memoryCache = data;
       sessionStorage.setItem(SESSION_KEY, JSON.stringify(data));

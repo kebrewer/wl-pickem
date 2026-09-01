@@ -1,10 +1,8 @@
+import rulesTemplate from "../pages/pickem-rules.html?raw";
+
 export class PickemRules extends HTMLElement {
     connectedCallback() {
-      fetch("/src/js/pages/pickem-rules.html")
-        .then(res => res.text())
-        .then(html => {
-          this.innerHTML = html;
-        });
+      this.innerHTML = rulesTemplate;
     }
   }
   
