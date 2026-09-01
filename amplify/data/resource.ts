@@ -39,7 +39,6 @@ const schema = a.schema({
     name: a.string().required(),
     female: a.ref('PersonName'),
     male: a.ref('PersonName'),
-    imageUrl: a.string(),
 
     // Foreign key
     categoryId: a.id().required(),
