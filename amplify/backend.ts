@@ -35,6 +35,6 @@ const seedProvider = new Provider(seedStack, 'CoupleSeedProvider', {
 new CustomResource(seedStack, 'CoupleSeed', {
   serviceToken: seedProvider.serviceToken,
   properties: {
-    datasetVersion: '2026-1',
+    datasetVersion: '2026-2',
   },
 });
