@@ -28,7 +28,10 @@ const schema = a.schema({
   votingOpen: a.boolean().required(),
 
   categories: a.hasMany("Category", "competitionId"),
-}),
+}).authorization((allow) => [
+    allow.guest().to(['read']),
+    allow.authenticated(),
+  ]),
 
   // ===============================
   // CATEGORY
@@ -48,7 +51,10 @@ const schema = a.schema({
 
     // One category has many ballots
     ballots: a.hasMany('Ballot', 'categoryId'),
-  }),
+  }).authorization((allow) => [
+    allow.guest().to(['read']),
+    allow.authenticated(),
+  ]),
 
   // ===============================
   // COUPLE
@@ -64,7 +70,10 @@ const schema = a.schema({
 
     // Couple belongs to a category
     category: a.belongsTo('Category', 'categoryId'),
-  }),
+  }).authorization((allow) => [
+    allow.guest().to(['read']),
+    allow.authenticated(),
+  ]),
 
   // ===============================
   // VOTER

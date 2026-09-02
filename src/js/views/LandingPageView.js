@@ -1,13 +1,8 @@
 import AbstractView from "./AbstractView.js";
 import { getCouplesData } from "../stores/couples-store.js";
 import { getVotePercentageData } from "../stores/vote-percentage-store.js";
-import { Amplify } from 'aws-amplify';
-import outputs from '../../../amplify_outputs.json';
-import { getCategories } from "../api.js";
+import { getCategories, getAllCouples } from "../api.js";
 
-Amplify.configure(outputs);
-
-import { generateClient } from "aws-amplify/data";
 
 export default class extends AbstractView {
   constructor(params) {
@@ -42,7 +37,20 @@ export default class extends AbstractView {
     // Fetch couples
     try {
       this.categories = await getCategories();
+      console.log('categories');
       console.log(this.categories);
+      // Now you can use this.couplesData in your rendering logic
+    } catch (err) {
+      console.error(err);
+    }
+
+    // Fetch couples
+    try {
+      const { couples, nextToken } = await getAllCouples();
+      this.couplesData2 = couples;
+      this.nextToken = nextToken;
+      console.log('couples');
+      console.log(this.couplesData2);
       // Now you can use this.couplesData in your rendering logic
     } catch (err) {
       console.error(err);
