@@ -1,11 +1,13 @@
 import { defineBackend } from '@aws-amplify/backend';
 import { auth } from './auth/resource';
 import { data } from './data/resource';
+/*
 import { CustomResource, Duration } from 'aws-cdk-lib';
 import { Provider } from 'aws-cdk-lib/custom-resources';
 import { Runtime } from 'aws-cdk-lib/aws-lambda';
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs';
 import { fileURLToPath } from 'node:url';
+*/
 
 /**
  * @see https://docs.amplify.aws/react/build-a-backend/ to add storage, functions, and more
@@ -14,6 +16,9 @@ const backend = defineBackend({
   auth,
   data,
 });
+
+/**
+ * Seed stack for populating the Couple table with initial data
 
 const seedStack = backend.createStack('couple-seed');
 const coupleTable = backend.data.resources.tables.Couple;
@@ -38,3 +43,4 @@ new CustomResource(seedStack, 'CoupleSeed', {
     datasetVersion: '2026-2',
   },
 });
+ */

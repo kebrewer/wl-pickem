@@ -15,6 +15,22 @@ const schema = a.schema({
   }),
 
   // ===============================
+  // Competition
+  // ===============================
+  Competition: a.model({
+  name: a.string().required(),
+  year: a.integer().required(),
+  description: a.string(),
+
+  startDate: a.date(),
+  endDate: a.date(),
+
+  votingOpen: a.boolean().required(),
+
+  categories: a.hasMany("Category", "competitionId"),
+}),
+
+  // ===============================
   // CATEGORY
   // ===============================
   Category: a.model({
@@ -23,6 +39,9 @@ const schema = a.schema({
     displayOrder: a.integer(),
     displayName: a.string(),
     votingOpen: a.boolean(),
+
+    competitionId: a.id().required(),
+    competition: a.belongsTo("Competition", "competitionId"),
 
     // One category has many couples
     couples: a.hasMany('Couple', 'categoryId'),
