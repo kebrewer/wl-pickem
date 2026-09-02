@@ -2,7 +2,7 @@ import AbstractView from "./AbstractView.js";
 import { getCouplesData } from "../stores/couples-store.js";
 import { getVotePercentageData } from "../stores/vote-percentage-store.js";
 import { Amplify } from 'aws-amplify';
-import outputs from '../amplify_outputs.json';
+import outputs from '../../../amplify_outputs.json';
 import { getCategories } from "../api.js";
 
 Amplify.configure(outputs);
