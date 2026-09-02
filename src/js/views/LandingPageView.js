@@ -1,12 +1,18 @@
-import AbstractView from './AbstractView.js';
+import AbstractView from "./AbstractView.js";
 import { getCouplesData } from "../stores/couples-store.js";
 import { getVotePercentageData } from "../stores/vote-percentage-store.js";
+import { Amplify } from 'aws-amplify';
+import outputs from '../amplify_outputs.json';
+import { getCategories } from "../api.js";
 
+Amplify.configure(outputs);
+
+import { generateClient } from "aws-amplify/data";
 
 export default class extends AbstractView {
   constructor(params) {
     super(params);
-    this.setTitle('Landing');
+    this.setTitle("Landing");
     this.iMax = 3;
     this.categoryInputList = [
       ".begin-item-list",
@@ -32,9 +38,20 @@ export default class extends AbstractView {
     } catch (err) {
       console.error(err);
     }
+
+    // Fetch couples
+    try {
+      this.categories = await getCategories();
+      console.log(this.categories);
+      // Now you can use this.couplesData in your rendering logic
+    } catch (err) {
+      console.error(err);
+    }
+
+
   }
 
-  enableListeners(){
+  enableListeners() {
     this.enabletablisteners();
   }
 
@@ -42,7 +59,7 @@ export default class extends AbstractView {
     const tabs = document.querySelector(".tabwrapper");
     const tabButton = document.querySelectorAll(".tab");
     const contents = document.querySelectorAll(".tabcontent");
-  
+
     tabs.onclick = (e) => {
       const id = e.target.dataset.id;
       if (id) {
@@ -50,7 +67,7 @@ export default class extends AbstractView {
           btn.classList.remove("tab-active");
         });
         e.target.classList.add("tab-active");
-  
+
         contents.forEach((content) => {
           content.classList.remove("active");
         });
@@ -67,11 +84,11 @@ export default class extends AbstractView {
   calculateValuePercentages(data) {
     const counts = {};
     let total = 0;
-  
-    data.forEach(entry => {
+
+    data.forEach((entry) => {
       const selection = entry.selection;
-      Object.values(selection).forEach(category => {
-        ["1st", "2nd", "3rd"].forEach(place => {
+      Object.values(selection).forEach((category) => {
+        ["1st", "2nd", "3rd"].forEach((place) => {
           const value = category[place];
           if (value) {
             counts[value] = (counts[value] || 0) + 1;
@@ -80,37 +97,38 @@ export default class extends AbstractView {
         });
       });
     });
-  
+
     const percentages = {};
     Object.entries(counts).forEach(([value, count]) => {
       percentages[value] = ((count / total) * 100).toFixed(2);
     });
-  
+
     return percentages;
   }
 
-    async groupCouplesByCategory(couples) {
-      const { default: categories } = await import("../../json/categories.json");
-      const categoryKeys = Object.fromEntries(
-        categories.map(category => [category.id, category.id])
-      );
-      const groupedCouples = Object.fromEntries(
-        Object.values(categoryKeys).map(category => [category, []])
-      );
+  async groupCouplesByCategory(couples) {
+    const { default: categories } = await import("../../json/categories.json");
+    const categoryKeys = Object.fromEntries(
+      categories.map((category) => [category.id, category.id]),
+    );
+    const groupedCouples = Object.fromEntries(
+      Object.values(categoryKeys).map((category) => [category, []]),
+    );
 
-      couples.forEach(couple => {
-        const categoryId = couple.categoryId === "OVER_60" ? "SIXTY_PLUS" : couple.categoryId;
-        const category = categoryKeys[categoryId];
-        if (category) {
-          groupedCouples[category].push(couple);
-        }
-      });
+    couples.forEach((couple) => {
+      const categoryId =
+        couple.categoryId === "OVER_60" ? "SIXTY_PLUS" : couple.categoryId;
+      const category = categoryKeys[categoryId];
+      if (category) {
+        groupedCouples[category].push(couple);
+      }
+    });
 
-      return groupedCouples;
-    }
+    return groupedCouples;
+  }
 
-  showButton(){
-    const bttn =`
+  showButton() {
+    const bttn = `
     <div style="text-align: center" class="mt-6 mb-4">
       <button id="selectionBtton" class="btn btn-primary">
       <a href="#selection" data-link> Start Here! </a>
@@ -123,20 +141,25 @@ export default class extends AbstractView {
     const { default: categories } = await import("../../json/categories.json");
 
     return categories
-      .sort((firstCategory, secondCategory) => firstCategory.displayOrder - secondCategory.displayOrder)
-      .map((category, index) =>
-        `<a class="tab tab-lifted${index === 0 ? " tab-active" : ""}" data-id="${category.id}">${category.displayName}</a>`
+      .sort(
+        (firstCategory, secondCategory) =>
+          firstCategory.displayOrder - secondCategory.displayOrder,
+      )
+      .map(
+        (category, index) =>
+          `<a class="tab tab-lifted${index === 0 ? " tab-active" : ""}" data-id="${category.id}">${category.displayName}</a>`,
       )
       .join("");
   }
 
-
-  generateCoupleRows(jsonData,percentages) {
-    Object.keys(jsonData).forEach(category => {
+  generateCoupleRows(jsonData, percentages) {
+    Object.keys(jsonData).forEach((category) => {
       const rows = [];
       const arr = jsonData[category];
       arr.forEach((item, idx) => {
-        const percentage = Math.round(percentages[this.getCoupleKey(item)] ?? 0);
+        const percentage = Math.round(
+          percentages[this.getCoupleKey(item)] ?? 0,
+        );
         rows.push(`
           <tr>
             <th>${idx + 1}</th>
@@ -163,7 +186,7 @@ export default class extends AbstractView {
         }
       });
       this[category] = `
-        <div class="overflow-x-auto tabcontent ${category === 'BEGINNERS' ? 'active' : ''}" id="${category}">
+        <div class="overflow-x-auto tabcontent ${category === "BEGINNERS" ? "active" : ""}" id="${category}">
           <table class="table">
             <thead>
               <tr>
@@ -173,7 +196,7 @@ export default class extends AbstractView {
               </tr>
             </thead>
             <tbody>
-              ${rows.join('')}
+              ${rows.join("")}
             </tbody>
           </table>
         </div>
@@ -183,7 +206,9 @@ export default class extends AbstractView {
 
   async getHtml() {
     const percentages = this.calculateValuePercentages(this.votePercentageData);
-    const couplesByCategory = await this.groupCouplesByCategory(this.couplesData);
+    const couplesByCategory = await this.groupCouplesByCategory(
+      this.couplesData,
+    );
     this.generateCoupleRows(couplesByCategory, percentages);
     const tabs = await this.generateTabs();
     return `
