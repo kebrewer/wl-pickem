@@ -60,6 +60,7 @@ export const handler = async (event: {
   }));
 
   for (let index = 0; index < requests.length; index += 25) {
+    console.log(`Writing batch ${index / 25 + 1} of ${Math.ceil(requests.length / 25)}`);
     await writeBatch(tableName, requests.slice(index, index + 25));
   }
 
