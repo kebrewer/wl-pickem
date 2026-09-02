@@ -5,7 +5,7 @@ import { CustomResource, Duration } from 'aws-cdk-lib';
 import { Provider } from 'aws-cdk-lib/custom-resources';
 import { Runtime } from 'aws-cdk-lib/aws-lambda';
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs';
-import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 /**
  * @see https://docs.amplify.aws/react/build-a-backend/ to add storage, functions, and more
@@ -18,7 +18,7 @@ const backend = defineBackend({
 const seedStack = backend.createStack('couple-seed');
 const coupleTable = backend.data.resources.tables.Couple;
 const seedHandler = new NodejsFunction(seedStack, 'CoupleSeedHandler', {
-  entry: join(import.meta.dirname, 'seed/couple-seed-handler.ts'),
+  entry: fileURLToPath(new URL('./seed/couple-seed-handler.ts', import.meta.url)),
   runtime: Runtime.NODEJS_22_X,
   timeout: Duration.minutes(2),
   environment: {
