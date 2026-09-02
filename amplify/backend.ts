@@ -18,7 +18,7 @@ const backend = defineBackend({
 });
 
 
- * Seed stack for populating the Couple table with initial data
+ // Seed stack for populating the Couple table with initial data
 
 const seedStack = backend.createStack('couple-seed');
 const coupleTable = backend.data.resources.tables.Couple;
