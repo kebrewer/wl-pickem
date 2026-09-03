@@ -36,8 +36,8 @@ export default class extends AbstractView {
       incompleteSelects[0].focus();
       return;
     }
-s
-    window.location.hash = "#payment";
+
+    window.location.hash = "#otp";
   }
 
   submitSelections() {
@@ -221,8 +221,8 @@ s
       </a>
     </li>
         <li class="step step-primary">Select Your Winners Below</li>
-        <li class="step step-primary">Pay $5 to Enter your Choices</li>
-        <li class="step step-primary">Receive Confirmation Code</li>
+        <li class="step step-primary">Verify Your Phone</li>
+        <li class="step step-primary">Pay $5 to Submit your Choices</li>
       </ul>
     </div>
 

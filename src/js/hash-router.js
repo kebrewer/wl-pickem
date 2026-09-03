@@ -4,6 +4,7 @@ import LandingPageView from "./views/LandingPageView.js";
 import WinnerPageView from "./views/WinnerPageView.js";
 import ScorePageView from "./views/ScorePageView.js";
 import PaymentPageView from "./views/PaymentPageView.js";
+import OTPVerificationView from "./views/OTPVerificationView.js";
 
 
 const routes = {
@@ -12,7 +13,8 @@ const routes = {
   confirmation: ConfirmationPageView,
   winner: WinnerPageView,
   score: ScorePageView,
-  payment: PaymentPageView
+  payment: PaymentPageView,
+  otp: OTPVerificationView
 };
 
 // create a function that watches the url and calls the urlLocationHandler
